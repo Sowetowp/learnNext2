@@ -8,12 +8,12 @@ const Navbar = () => {
                     <h1 className='text-white text-xl leading-none tracking-widest'>SPERE</h1>
                     <div>
                         <a className='text-white text-xs font-semibold'>HOME</a>
-                        <a href="">ABOUT</a>
-                        <a href="">SERVICES</a>
-                        <a href="">TEAM</a>
-                        <a href="">WORK</a>
-                        <a href="">BLOG</a>
-                        <a href="">CONTACT</a>
+                        <a className='text-white text-xs font-semibold' href="">ABOUT</a>
+                        <a className='text-white text-xs font-semibold' href="">SERVICES</a>
+                        <a className='text-white text-xs font-semibold' href="">TEAM</a>
+                        <a className='text-white text-xs font-semibold' href="">WORK</a>
+                        <a className='text-white text-xs font-semibold' href="">BLOG</a>
+                        <a className='text-white text-xs font-semibold' href="">CONTACT</a>
                     </div>
                 </section>
             </header>
