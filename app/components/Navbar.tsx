@@ -11,7 +11,9 @@ const Navbar = () => {
                         <a href="">About</a>
                         <a href="">Services</a>
                         <a href="">Team</a>
-                        <a href=""></a>
+                        <a href="">Work</a>
+                        <a href="">BLOG</a>
+                        <A></A>
                     </div>
                 </section>
             </header>
