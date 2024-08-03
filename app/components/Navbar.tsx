@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
+    const [scrollHeader, setScrollHeader] = useState(false)
+
+    useEffect(() => {
+        if(typeof window !== "undefined"){
+            window.addEventListener("scroll", () => {
+                setScrollHeader(window.pageYOffset > 200)
+            })
+        }
+    }, [])
+
     return (
         <>
             <header className='bg-slate-500 w-full fixed'>
