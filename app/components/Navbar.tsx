@@ -1,17 +1,17 @@
-// "use client";
+"use client";
 import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
 
-    // useEffect(() => {
-    //     if(typeof window !== "undefined"){ 
-    //         console.log(typeof window)
-    //         window.addEventListener("scroll", () => {
-    //             setScrollHeader(window.pageYOffset > 200)
-    //         })
-    //     }
-    // }, [])
+    useEffect(() => {
+        if(typeof window !== "undefined"){ 
+            console.log(typeof window)
+            window.addEventListener("scroll", () => {
+                setScrollHeader(window.pageYOffset > 200)
+            })
+        }
+    }, [])
 
     return (
         <>
