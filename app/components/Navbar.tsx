@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
     <header className='bg-slate-500 w-full'>
         <section className='w-full max-w-7xl'>
-f
+<h1></h1>
         </section>
     </header>
     </>
