@@ -13,7 +13,7 @@ const Navbar = () => {
                         <a className='text-white text-[0.8rem] font-semibold' href="">TEAM</a>
                         <a className='text-white text-[0.8rem] font-semibold' href="">WORK</a>
                         <a className='text-white text-[0.8rem] font-semibold' href="">BLOG</a>
-                        <a className='text-white text-[0.8rem] font-semibold' href="">CONTACT</a>
+                        <a className='text-white text-[0.85rem] font-semibold' href="">CONTACT</a>
                     </div>
                 </section>
             </header>
