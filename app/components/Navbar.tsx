@@ -4,8 +4,7 @@ const Navbar = () => {
   return (
     <>
     <header className='bg-slate-500 w-full'>
-        <section className='wf
-        '>
+        <section className='w-full maxw'>
 
         </section>
     </header>
