@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <header>
-        
+    <header className='bg-slate-500 '>
+
     </header>
     </>
   )
