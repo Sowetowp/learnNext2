@@ -8,6 +8,8 @@ const Navbar = () => {
                     <h1 className='text-white text-xl leading-none tracking-widest'>SPERE</h1>
                     <div>
                         <a>Home</a>
+                        <a href="">About</a>
+                        <a href="">Services</a>
                         <a href=""></a>
                     </div>
                 </section>
