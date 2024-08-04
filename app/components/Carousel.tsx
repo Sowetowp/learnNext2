@@ -11,7 +11,7 @@ const Carousel = () => {
     return (
         <>
             <main className='h-screen bg-black w-full max-w-7xl relative'>
-                {slides.map(slide, index)=>(
+                {slides.map((slide, index)=>(
                 <div className='h-full w-full absolute z-10'>
                     <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
                         <span className='pt-20'>
@@ -22,7 +22,7 @@ const Carousel = () => {
                     </div>
                     <img className='h-full w-full object-cover' src="/hero-4.jpg" alt="" />
                 </div>
-                )}
+                ))}
                 <Navbar />
             </main>
         </>
