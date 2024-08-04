@@ -23,7 +23,7 @@
 }
 
 .parallax {
-  background-image: url("/public/handshake.jpg");
+  background-image: url("/handshake.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
