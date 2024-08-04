@@ -7,8 +7,8 @@ const Founded = () => {
                 <div className='w-1/2'>
                     <h2 className='font-bold w-[80%] text-[1.9rem]'>Founded with the goal to serve expertise</h2>
                     <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-6'>- Template is easy to setup and run</p>
-                    <p>- Free support and lifetime updates</p>
-                    <p>- Modern and unique design</p>
+                    <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-6'>- Free support and lifetime updates</p>
+                    <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-6'>- Modern and unique design</p>
                     <a href="" className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>CONTACT US</a>
                 </div>
             </section>
