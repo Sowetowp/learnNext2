@@ -2,23 +2,26 @@
 import React, { useState } from 'react';
 
 const Carousel: React.FC = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  
   const slides = [
     '/hero-4.jpg',
     '/hero-5.jpeg',
     '/hero-6.jpg',
   ];
-  
+
+  // Extend slides array to enable infinite scrolling effect
+  const extendedSlides = [...slides, ...slides, ...slides];
+
+  const [currentIndex, setCurrentIndex] = useState(slides.length);
+
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+      prevIndex === 0 ? extendedSlides.length - slides.length : prevIndex - 1
     );
   };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+      prevIndex === extendedSlides.length - 1 ? slides.length : prevIndex + 1
     );
   };
 
@@ -27,9 +30,9 @@ const Carousel: React.FC = () => {
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-500"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          style={{ transform: `translateX(-${(currentIndex - slides.length) * (100 / slides.length)}%)` }}
         >
-          {slides.map((slide, index) => (
+          {extendedSlides.map((slide, index) => (
             <div key={index} className="flex-shrink-0 w-full">
               <img src={slide} alt={`Slide ${index + 1}`} className="w-full" />
             </div>
