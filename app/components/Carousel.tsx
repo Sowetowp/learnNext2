@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const [toggle, settoggle] = useState(false)
     const slides = [
         '/hero-4.jpg',
         '/hero-5.jpeg',
@@ -26,27 +25,23 @@ const Carousel = () => {
     }
 
     const handlePrev = () => {
-        settoggle(true)
         setCurrentIndex((prevIndex) =>
             prevIndex === 0 ? slides.length - 1 : prevIndex - 1
         );
-        settoggle(false)
     };
 
     console.log(currentIndex)
     const handleNext = () => {
-        settoggle(true)
         setCurrentIndex((prevIndex) =>
             prevIndex === slides.length - 1 ? 0 : prevIndex + 1
         );
-        settoggle(false)
     };
 
     return (
         <>
             <main className='h-screen bg-black m-auto w-full max-w-7xl relative'>
                 {slides.map((slide, index) => (
-                    <div key={index} className={`h-full w-full absolute ${currentIndex === index ? "z-[11]" : currentIndex === slides.length - 1 && index === 0 && toggle ? "-z-10 hidden" : index === slides.length - 1&& toggle && currentIndex === 0 ? "-z-10 hidden" : "z-10"} transition-transform duration-500`} style={{ transform: `translateX(${position(index)})` }}>
+                    <div key={index} className={`h-full w-full absolute ${currentIndex === index ? "z-[11]" : currentIndex === slides.length - 1 && index === 0 ? "-z-10 hidden" : index === slides.length - 1 && currentIndex === 0 ? "-z-10 hidden" : "z-10"} opacity-100 transition-transform duration-500`} style={{ transform: `translateX(${position(index)})` }}>
                         <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
                             <span className='pt-20'>
                                 <p className='text-white font-bold text-5xl'>Talented Consultants</p>
