@@ -30,7 +30,7 @@ const Navbar = () => {
         };
     };
 
-    const handleMenuChange = (e: boolean) => {
+    const handleMenuChange = (e: Object) => {
         if (e.target.checked) {
             setMenu(true)
         } else {
