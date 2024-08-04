@@ -9,6 +9,7 @@ const Founded = () => {
                     <p>- Template is easy to setup and run</p>
                     <p>- Free support and lifetime updates</p>
                     <p>- Modern and unique design</p>
+                    <a href="" className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>{slide.btn}</a>
                 </div>
             </section>
         </>
