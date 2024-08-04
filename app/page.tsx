@@ -11,6 +11,7 @@ export default function Home() {
       <Expert />
       <Founded/>
       <Award/>
+      <Serv
     </>
   );
 }
