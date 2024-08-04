@@ -2,7 +2,7 @@ import React from 'react'
 
 const Consultants = () => {
     const exp = [
-
+{img: ""}
     ]
     return (
         <>
