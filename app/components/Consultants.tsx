@@ -2,7 +2,7 @@ import React from 'react'
 
 const Consultants = () => {
     const exp = [
-{img: "/img-10.jpg", name: "JAMES WILLAMSON", post:""}
+{img: "/img-10.jpg", name: "JAMES WILLAMSON", post:"Founder"}
     ]
     return (
         <>
@@ -20,7 +20,7 @@ const Consultants = () => {
                             <img className='w-full h-[19rem] object-cover' src="" alt="" />
                         </div>
                         <p className='font-medium text-xs tracking-wider mt-5 text-center'></p>
-                        <p className='text-[0.8rem] mt-1 text-gray-500'>Founder</p>
+                        <p className='text-[0.8rem] mt-1 text-gray-500'></p>
                     </div>
                 </div>
             </section>
