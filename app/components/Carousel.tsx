@@ -10,7 +10,7 @@ const Carousel = () => {
                         <span>
                             <p className='text-white font-bold text-5xl'>Talented Consultants</p>
                             <p className='text-white mt-3'>With over 20 years experience helping business to find comprehensive solutions</p>
-                            <a href="">OUR SERVICES</a>
+                            <a href="" className='mt-4 px-5 py-3 bg-blue-600'>OUR SERVICES</a>
                         </span>
                     </div>
                     <img className='h-full w-full object-cover' src="/hero-4.jpg" alt="" />
