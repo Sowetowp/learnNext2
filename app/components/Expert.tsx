@@ -2,7 +2,9 @@ import React from 'react'
 
 const Expert = () => {
     const exp = [
-        
+        {
+            img: 
+        }
     ]
     return (
         <>
