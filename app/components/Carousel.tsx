@@ -56,7 +56,7 @@ const Carousel = () => {
                         <img className='h-full w-full object-cover' src={slide.img} alt="" />
                     </div>
                 ))}
-                <div className='h-full bg-slate-500 w-full absolute'>
+                <div className='h-full bg-slate-500 w-full absolute z-20'>
 
                 </div>
                 <Navbar />
