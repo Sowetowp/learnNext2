@@ -59,7 +59,7 @@ const Carousel = () => {
                 <Navbar />
             </main>
             <button className='border bg-black  p-14' onClick={()=>setNext(false)}>kk</button>
-            <button className='border bg-red-500  p-14' onClick={()=>{}}>kk</button>
+            <button className='border bg-red-500  p-14' onClick={()=>setPrev(false)}>kk</button>
         </>
     )
 }
