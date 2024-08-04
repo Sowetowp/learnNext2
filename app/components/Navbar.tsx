@@ -55,12 +55,12 @@ const Navbar = () => {
                     </div>
                 </section>
                 <section className='w-full m-auto max-w-7xl flex flex-col'>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]'>HOME</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">ABOUT</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">SERVICES</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">TEAM</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">WORK</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">BLOG</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]'>HOME</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">ABOUT</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">SERVICES</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">TEAM</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">WORK</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">BLOG</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">CONTACT</a>
                 </section>
             </header>
