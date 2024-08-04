@@ -54,6 +54,7 @@ const Navbar = () => {
                         </label>
                     </div>
                 </section>
+                <section className='w-full m-auto max-w-7xl py-7 px-1 md:px-16 flex items-center justify-between'></section>
             </header>
         </>
     )
