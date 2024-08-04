@@ -26,10 +26,11 @@ const Carousel = () => {
         }
     }
 useState(()=>{
-
-    setCurrentIndex((prevIndex) =>
-        prevIndex === 0 ? slides.length - 1 : prevIndex - 1
-    );
+    if(!next){
+        setCurrentIndex((prevIndex) =>
+            prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+        );
+    }
 },[next])
     const handlePrev = () => {
     };
