@@ -23,7 +23,7 @@ const Services = () => {
         <>
             <section className='w-full max-w-7xl m-auto bg-white py-28'>
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Our services</h2>
-                <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-[40%] text-center'>There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p>
+                <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-[60%] xl:w-[40%] text-center'>There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p>
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
                         <div key={index} className='xl:w-1/4 md:w-1/2 w-full md:px-10 text-center mt-14'>
