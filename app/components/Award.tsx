@@ -5,7 +5,7 @@ const Award = () => {
     <>
       <section className='w-full max-w-7xl m-auto'>
         <div className="parallax">
-          <p className='text-white h-[20rem] bg-black'>We are award winning business consultant</p>
+          <p className='text-white h-[20rem] items-center'>We are award winning business consultant</p>
         </div>
         <div>kkk</div>
       </section>
