@@ -11,7 +11,9 @@ const Carousel = () => {
     ];
 
     const position = (index: any) => {
-        if (index)
+        if (index === currentIndex){
+            return "0%"
+        }
     }
 
     const handlePrev = () => {
