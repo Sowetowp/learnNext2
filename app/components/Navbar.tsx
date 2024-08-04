@@ -33,6 +33,8 @@ const Navbar = () => {
     const handleMenuChange = (e)=>{
 if(e.target.checked){
     setMenu(true)
+}else{
+    setMenu(false)
 }
     }
     return (
