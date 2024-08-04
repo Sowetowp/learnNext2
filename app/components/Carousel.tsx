@@ -62,7 +62,7 @@ const Carousel = () => {
                 </button>
                 <div className='absolute z-20'>
                     {slides.map((slide, index) => (
-                        <div key={index} className={`bg-red-500 border-2 border-white w-3 h-3 rounded-full`}></div>
+                        <div key={index} className={`${index === currentIndex? "bg-white": ""} border-2 border-white w-3 h-3 rounded-full`}></div>
                     ))}
                 </div>
                 <Navbar />
