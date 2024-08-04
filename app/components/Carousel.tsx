@@ -10,7 +10,7 @@ const Carousel = () => {
         '/hero-6.jpg',
     ];
 
-    const position = (index: any) => {
+    const position = (index: number) => {
         if (index === currentIndex) {
             return "0%"
         } else if (currentIndex === slides.length - 1 && index === 0) {
