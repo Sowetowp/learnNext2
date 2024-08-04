@@ -27,7 +27,7 @@ const Happy = () => {
         return () => {
             clearInterval(interval);
         };
-    }, []);
+    }, [count]);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
