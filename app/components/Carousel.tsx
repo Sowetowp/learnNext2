@@ -43,7 +43,7 @@ const Carousel = () => {
         <>
             <main className='xl:h-screen 2xl:h-[40vh] h-[60vh] bg-black m-auto w-full overflow-hidden max-w-7xl relative'>
                 {slides.map((slide, index) => (
-                    <div key={index} className={`h-full w-full absolute ${currentIndex === index ? "z-[12]": prevIndex.current === index ? "z-[11]" : "z-10"} transition-transform duration-700`} style={{ transform: `translateX(${position(index)})` }}>
+                    <div key={index} className={`h-full w-full absolute ${currentIndex === index || prevIndex.current === index ? "z-[11]" : "z-10"} transition-transform duration-700`} style={{ transform: `translateX(${position(index)})` }}>
                         <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
                             <span className='pt-20'>
                                 <p className='text-white font-bold text-5xl'>{slide.title}</p>
