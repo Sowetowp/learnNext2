@@ -62,7 +62,7 @@ const Navbar = () => {
                         </label>
                     </div>
                 </section>
-                <section className={`w-full m-auto max-w-7xl md:hidden flex-col ${menu ? "flex" : "flex"} bg-[#000000de] transition-opacity duration-500`} style={{transform:"tra"}}>
+                <section className={`w-full m-auto max-w-7xl md:hidden flex-col ${menu ? "flex" : "flex"} bg-[#000000de] transition-opacity duration-500`} style={{transform:"translateX(100%)"}}>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center'>HOME</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">ABOUT</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">SERVICES</a>
