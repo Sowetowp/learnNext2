@@ -7,7 +7,7 @@ const Happy = () => {
     const [count1, setCount1] = useState(0)
     const [count2, setCount2] = useState(0)
     const [count3, setCount3] = useState(0)
-console.log(scrollHeader)
+    console.log(scrollHeader)
     useEffect(() => {
         const interval = setInterval(() => {
             if (scrollHeader && count < 1542) {
@@ -24,10 +24,10 @@ console.log(scrollHeader)
             }
         }, 0.001);
 
-        // return () => {
-        //     clearInterval(interval);
-        // };
-    }, [scrollHeader]);
+        return () => {
+            clearInterval(interval);
+        };
+    }, [scrollHeader, count, count1, count2, count3]);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
