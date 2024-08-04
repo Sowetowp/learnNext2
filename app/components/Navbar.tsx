@@ -55,7 +55,13 @@ const Navbar = () => {
                     </div>
                 </section>
                 <section className='w-full m-auto max-w-7xl py-7 px-1 md:px-16 flex items-center justify-between'>
-                    
+                    <a className='text-white text-[0.8rem] font-semibold'>HOME</a>
+                    <a className='text-white text-[0.8rem] font-semibold' href="">ABOUT</a>
+                    <a className='text-white text-[0.8rem] font-semibold' href="">SERVICES</a>
+                    <a className='text-white text-[0.8rem] font-semibold' href="">TEAM</a>
+                    <a className='text-white text-[0.8rem] font-semibold' href="">WORK</a>
+                    <a className='text-white text-[0.8rem] font-semibold' href="">BLOG</a>
+                    <a className='text-white text-[0.8rem] font-semibold' href="">CONTACT</a>
                 </section>
             </header>
         </>
