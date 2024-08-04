@@ -29,7 +29,7 @@ const Carousel = () => {
                 <Navbar />
                 <button>m</button>
             </main> */}
-<div className="max-w-2xl mx-auto w-full">
+<div className="max-w-2xl mx-auto w-screen">
 
 	<div id="default-carousel" className="relative" data-carousel="static">
         <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
