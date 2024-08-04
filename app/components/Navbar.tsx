@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
-    const [scrollHeader, setScrollHeader] = useState(false)
+    const [menu, setMenu] = useState(false)
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
