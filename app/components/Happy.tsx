@@ -27,7 +27,7 @@ console.log(scrollHeader)
         return () => {
             clearInterval(interval);
         };
-    }, [scrollHeader]);
+    }, [scrollHeader, count, ]);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
