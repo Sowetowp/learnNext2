@@ -2,9 +2,10 @@ import React from 'react'
 
 const Consultants = () => {
     const exp = [
-{img: "/img-10.jpg", name: "JAMES WILLAMSON", post:"FOUNDER"},
-{img: "/img-13.jpg", name: "LISA RAY", post:"DESIGNER"},
-
+        { img: "/img-10.jpg", name: "JAMES WILLAMSON", post: "FOUNDER" },
+        { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" },
+        { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" },
+        { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" }
     ]
     return (
         <>
