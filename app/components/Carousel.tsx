@@ -1,9 +1,9 @@
 "use client";
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
 
 const Carousel = () => {
-    const [index]
+    const [index, setindex] = useState(0)
     const slides = [
         '/hero-4.jpg',
         '/hero-5.jpeg',
