@@ -2,7 +2,11 @@ import React from 'react'
 
 const Happy = () => {
   return (
-    <div>Happy</div>
+    <>
+    <section>
+        
+    </section>
+    </>
   )
 }
 
