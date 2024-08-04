@@ -7,7 +7,7 @@ const Expert = () => {
             head: "Modern Design"
         },
         {
-            img: <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style> </defs> <title></title> <g data-name="Layer 6" id="Layer_6"> <path className="cls-1" d="M1.42,38.13l61.08-.19v3.48a7,7,0,0,1-7,7H8.39a7,7,0,0,1-7-7V14.83a7,7,0,0,1,7-7H55.52a7,7,0,0,1,7,7v17.9"></path> <path className="cls-1" d="M28.25,48.4S28,54.59,22,56.23"></path> <path className="cls-1" d="M35.93,48.4s.26,6.19,6.3,7.83"></path> <line className="cls-1" x1="18.04" x2="45.88" y1="56.23" y2="56.23"></line> <line className="cls-1" x1="31.02" x2="32.9" y1="43" y2="43"></line> </g> </g></svg>,
+            img: <svg fill="#000000" viewBox="0 -8 72 72" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>computer</title><path d="M57.43,8V7.94H14.55V8A2.84,2.84,0,0,0,12,10.55V38.73a2.75,2.75,0,0,0,.38,1.41,2.62,2.62,0,0,0,2.44,1.43H30.26v3.9H27.32a1.3,1.3,0,0,0,0,2.59H44.66a1.3,1.3,0,1,0,0-2.59H41.72v-3.9H57.19a2.63,2.63,0,0,0,2.45-1.43,2.91,2.91,0,0,0,.4-1.41V10.55A2.9,2.9,0,0,0,57.43,8Zm0,2.77V38.73c0,.16-.07.23-.24.23H14.78c-.16,0-.23-.07-.23-.23V10.55H57.43v.23Z"></path></g></svg>,
             head: "Free Support"
         },
         {
