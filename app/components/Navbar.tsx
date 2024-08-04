@@ -30,8 +30,8 @@ const Navbar = () => {
         };
     };
 
-    const handleMenuChange = ()=>{
-        
+    const handleMenuChange = (e)=>{
+if()
     }
     return (
         <>
