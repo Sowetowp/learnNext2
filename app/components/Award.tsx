@@ -3,10 +3,10 @@ import React from 'react'
 const Award = () => {
   return (
     <>
-    <section>
-    <div className="parallax"></div>
-    <div>kkk</div>
-    </section>
+      <section>
+        <div className="parallax"></div>
+        <div>kkk</div>
+      </section>
     </>
   )
 }
