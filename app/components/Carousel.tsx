@@ -58,7 +58,8 @@ const Carousel = () => {
                 ))}
                 <div className='h-full bg-slate-500 w-full absolute z-20'>
 <span>
-    
+    <button></button>
+    <button></button>
 </span>
                 </div>
                 <Navbar />
