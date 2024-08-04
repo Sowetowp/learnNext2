@@ -10,7 +10,7 @@ const Carousel = () => {
         '/hero-5.jpeg',
         '/hero-6.jpg',
     ];
-    
+
     return (
         <>
             <main className='h-screen bg-black w-full max-w-7xl relative'>
@@ -25,6 +25,7 @@ const Carousel = () => {
                     <img className='h-full w-full object-cover' src="/hero-4.jpg" alt="" />
                 </div>
                 <Navbar />
+                <button>m</button>
             </main>
         </>
     )
