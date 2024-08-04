@@ -22,7 +22,7 @@ const Happy = () => {
             if (scrollHeader && count3 < 1347) {
                 setCount3(count3 + 1);
             }
-        }, 0.001);
+        }, 1);
 
         return () => {
             clearInterval(interval);
