@@ -10,8 +10,8 @@ const Carousel = () => {
         '/hero-6.jpg',
     ];
 
-    const position = (index) => {
-        
+    const position = (index: any) => {
+        if (index)
     }
 
     const handlePrev = () => {
