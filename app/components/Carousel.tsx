@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef, useState } from 'react'
 import Navbar from './Navbar'
-import { title } from 'process';
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
