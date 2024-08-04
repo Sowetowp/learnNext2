@@ -7,6 +7,7 @@ const Navbar = () => {
     useEffect(() => {
         if (typeof window !== 'undefined') {
           const handleScroll = () => {
+            console.log(typeof window)
             setScrollHeader(window.pageYOffset > 200);
           };
     
