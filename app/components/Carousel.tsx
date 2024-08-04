@@ -68,8 +68,6 @@ const Carousel = () => {
                 </div>
                 <Navbar />
             </main>
-            <button className='border bg-black  p-14' >kk</button>
-            <button className='border bg-red-500 h-[300vh]  p-14' >kk</button>
         </>
     )
 }
