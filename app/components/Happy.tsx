@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Happy = () => {
-    const 
+    const deta
     return (
         <>
             <section className='w-full max-w-7xl bg-stone-50 p-16'>
