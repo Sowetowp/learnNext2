@@ -12,7 +12,7 @@ const Consultants = () => {
                 <div className='w-full px-10 flex flex-wrap'>
                     <div className='xl:w-1/4 md:w-1/2 w-full text-center mt-14 px-3'>
                         <div className='relative'>
-                            <div className='h-62 w-full z-10 absolute bg-blue-700'>l</div>
+                            <div className='h-[19rem] w-full z-10 absolute bg-blue-700'></div>
                             <img className='w-full h-[19rem] object-cover' src="/img-10.jpg" alt="" />
                         </div>
                     </div>
