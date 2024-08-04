@@ -11,15 +11,15 @@ const Carousel = () => {
     ];
     const handlePrev = () => {
         setCurrentIndex((prevIndex) =>
-          prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+            prevIndex === 0 ? slides.length - 1 : prevIndex - 1
         );
-      };
-    
-      const handleNext = () => {
+    };
+
+    const handleNext = () => {
         setCurrentIndex((prevIndex) =>
-          prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+            prevIndex === slides.length - 1 ? 0 : prevIndex + 1
         );
-      };
+    };
 
     return (
         <>
@@ -38,7 +38,7 @@ const Carousel = () => {
                 ))}
                 <Navbar />
             </main>
-            <button className='border bg-black' onClick={()=>setCurrentIndex(currentIndex+1)}>kk</button>
+            <button className='border bg-black' onClick={() => setCurrentIndex(currentIndex + 1)}>kk</button>
         </>
     )
 }
