@@ -8,7 +8,7 @@ const Carousel = () => {
     const prevIndex = useRef(0)
     const slides = [
         {img:'/hero-4.jpg', title: "Talented Consultants", details: "With over 20 years experience helping business to find comprehensive solutions"},
-        {img: '/hero-5.jpeg', title:"Qualified Professionals", details: ""},
+        {img: '/hero-5.jpeg', title:"Qualified Professionals", details: "We have spent thousands of hours to learn technology "},
         '/hero-6.jpg',
     ];
 
