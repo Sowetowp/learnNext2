@@ -1,9 +1,8 @@
 "use client";
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Happy = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
-    const [menu, setMenu] = useState(false)
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
