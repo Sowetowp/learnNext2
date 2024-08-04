@@ -21,7 +21,7 @@ const Carousel = () => {
         } else if (index === slides.length - 1 && currentIndex === 0) {
             return "-100%"
         } else{
-            return -index * 100
+            return index * 100
         }
     }
 
