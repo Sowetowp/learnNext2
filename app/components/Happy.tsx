@@ -32,7 +32,7 @@ const Happy = () => {
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
-                setScrollHeader(window.pageYOffset > 200);
+                setScrollHeader(window.pageYOffset > 900);
             };
             const debouncedHandleScroll = debounce(handleScroll, 50);
             window.addEventListener('scroll', debouncedHandleScroll);
