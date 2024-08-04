@@ -5,6 +5,7 @@ import Founded from "./components/Founded";
 import Award from "./components/Award";
 import Services from "./components/Services";
 import Consultants from "./components/Consultants";
+import Happy from "./components/Happy";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Award />
       <Services />
       <Consultants />
+      <Happy/>
     </>
   );
 }
