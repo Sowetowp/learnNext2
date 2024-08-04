@@ -50,7 +50,7 @@ const Carousel = () => {
                             <span className='pt-20'>
                                 <p className='text-white font-bold text-5xl'>{slide.title}</p>
                                 <p className='text-white mt-3'>{slide.details}</p>
-                                <a href="" className='mt-8 z-30 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>{slide.url}</a>
+                                <a href="" className='mt-8 z-30 relative px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>{slide.url}</a>
                             </span>
                         </div>
                         <img className='h-full w-full object-cover' src={slide.img} alt="" />
