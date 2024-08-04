@@ -41,7 +41,7 @@ const Carousel = () => {
                 <img src={slides[1]} className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..."/>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..."/>
+                <img src={slides[2]} className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..."/>
             </div>
         </div>
         <div className="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
