@@ -38,7 +38,7 @@ const Carousel = () => {
                 ))}
                 <Navbar />
             </main>
-            <button className='border bg-black w-fit p-9 m-auto' onClick={handleNext}>kk</button>
+            <button className='border bg-black w-20 p-9 m-auto' onClick={handleNext}>kk</button>
         </>
     )
 }
