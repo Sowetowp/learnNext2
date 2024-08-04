@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const [next, setNext] = useState(null)
+    const [next, setNext] = useState()
     const slides = [
         '/hero-4.jpg',
         '/hero-5.jpeg',
