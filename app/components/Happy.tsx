@@ -24,9 +24,9 @@ console.log(scrollHeader)
             }
         }, 0.001);
 
-        return () => {
-            clearInterval(interval);
-        };
+        // return () => {
+        //     clearInterval(interval);
+        // };
     }, [scrollHeader, count, ]);
 
     useEffect(() => {
