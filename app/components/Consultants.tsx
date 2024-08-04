@@ -5,7 +5,7 @@ const Consultants = () => {
         { img: "/img-10.jpg", name: "JAMES WILLAMSON", post: "FOUNDER" },
         { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" },
         { img: "/img-15.jpg", name: "JOHN DOE", post: "DIRECTOR" },
-        { img: "/img-17.jpg", name: "KATE NELSON", post: "DESIGNER" }
+        { img: "/img-17.jpg", name: "KATE NELSON", post: "ACCOUNTANT" }
     ]
     return (
         <>
