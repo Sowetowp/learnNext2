@@ -33,6 +33,7 @@ const Carousel = () => {
     };
 
     console.log(currentIndex)
+    console.log(prevIndex.current)
     const handleNext = () => {
         prevIndex.current === currentIndex
         setCurrentIndex((prevIndex) =>
