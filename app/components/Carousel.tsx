@@ -9,7 +9,7 @@ const Carousel = () => {
             <div className='h-full w-full absolute bg-[#00000091]'>
                 <p>Talented Consultants</p>
                 <p>With over 20 years experience helping business to find comprehensive solutions</p>
-                <a href=""></a>
+                <a href="">OUR SERVICES</a>
             </div>
             <img className='h-full w-full object-cover' src="/hero-4.jpg" alt="" />
         </div>
