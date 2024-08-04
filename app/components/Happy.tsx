@@ -10,7 +10,7 @@ const Happy = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if ( count < 1542) {
+            if (scrollHeader && count < 1542) {
                 setCount(count + 1);
             }
             if (scrollHeader && count1 < 2591) {
