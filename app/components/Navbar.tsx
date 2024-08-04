@@ -41,7 +41,7 @@ const Navbar = () => {
         <>
             <header className={`w-full transition-colors duration-500 ${scrollHeader ? "fixed z-[9999] bg-white" : "relative z-[9999]"} ${menu ? "bg-[#000000f3]" : ""} md:bg-transparent`}>
                 <section className='w-full m-auto max-w-7xl py-4 md:py-7 px-1 md:px-8 xl:px-16 flex items-center justify-between'>
-                    <h1 className={`text-white text-xl leading-none tracking-widest ${scrollHeader?""}`}>SPERE</h1>
+                    <h1 className={`text-white text-xl leading-none tracking-widest ${scrollHeader?"text-black":""}`}>SPERE</h1>
                     <div className='md:flex gap-8 items-center hidden'>
                         <a className='text-white text-[0.8rem] font-semibold'>HOME</a>
                         <a className='text-white text-[0.8rem] font-semibold' href="">ABOUT</a>
