@@ -27,7 +27,7 @@ const Carousel = () => {
                 ))}
                 <Navbar />
             </main>
-            <button className='border' onClick={()=>setCurrentIndex(currentIndex+1)}>kk</button>
+            <button className='border bg-black' onClick={()=>setCurrentIndex(currentIndex+1)}>kk</button>
         </>
     )
 }
