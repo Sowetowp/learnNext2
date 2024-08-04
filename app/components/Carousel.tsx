@@ -4,7 +4,7 @@ const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const slides = [
-    '/images/slide1.jpg',
+    '/h',
     '/images/slide2.jpg',
     '/images/slide3.jpg',
   ];
