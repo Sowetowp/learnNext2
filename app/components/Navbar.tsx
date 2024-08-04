@@ -61,7 +61,7 @@ const Navbar = () => {
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">TEAM</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">WORK</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000c0]' href="">BLOG</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000d3]' href="">CONTACT</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">CONTACT</a>
                 </section>
             </header>
         </>
