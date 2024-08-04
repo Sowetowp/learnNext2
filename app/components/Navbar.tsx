@@ -33,7 +33,7 @@ const Navbar = () => {
 
     return (
         <>
-            <header className={`w-full ${scrollHeader ? "fixed z-[9999]" : ""}`}>
+            <header className={`w-full ${scrollHeader ? "fixed z-[9999]" : "relative"}`}>
                 <section className='w-full max-w-7xl py-7 px-1 md:px-16 flex items-center justify-between'>
                     <h1 className='text-white text-xl leading-none tracking-widest'>SPERE</h1>
                     <div className='flex gap-8 items-center'>
