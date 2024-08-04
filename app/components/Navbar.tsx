@@ -55,7 +55,7 @@ const Navbar = () => {
                     </div>
                 </section>
                 <section className='w-full m-auto max-w-7xl flex flex-col'>
-                    <a className='text-white text-[0.8rem] font-semibold bg-[#00000077]'>HOME</a>
+                    <a className='text-white text-[0.8rem] font-semibold py-2 bg-[#00000077]'>HOME</a>
                     <a className='text-white text-[0.8rem] font-semibold' href="">ABOUT</a>
                     <a className='text-white text-[0.8rem] font-semibold' href="">SERVICES</a>
                     <a className='text-white text-[0.8rem] font-semibold' href="">TEAM</a>
