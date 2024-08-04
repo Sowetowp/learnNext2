@@ -56,6 +56,9 @@ const Carousel = () => {
                         <img className='h-full w-full object-cover' src={slide.img} alt="" />
                     </div>
                 ))}
+                <div>
+                    
+                </div>
                 <Navbar />
             </main>
             <button className='border bg-black  p-14' onClick={handleNext}>kk</button>
