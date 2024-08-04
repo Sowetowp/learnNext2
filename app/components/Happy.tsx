@@ -27,7 +27,8 @@ const Happy = () => {
         return () => {
           clearInterval(interval);
         };
-    }, [count, count1, count2, count3]);
+    }, []);
+    
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
