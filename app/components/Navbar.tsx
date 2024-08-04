@@ -30,6 +30,7 @@ const Navbar = () => {
         };
     };
 
+    
     return (
         <>
             <header className={`w-full ${scrollHeader ? "fixed z-[9999]" : "relative z-[9999]"}`}>
