@@ -6,7 +6,8 @@ const Founded = () => {
     <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
         <div className='w-1/2'>
         <h2>Founded with the goal to serve expertise</h2>
-        
+        <p>- Template is easy to setup and run</p>
+        <p></p>
         </div>
     </section>
     </>
