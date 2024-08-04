@@ -30,7 +30,7 @@ const Happy = () => {
                 <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center'>
                     {det.img}
                     <p className='text-2xl font-medium mt-2'>{det.num}</p>
-                    <p className='mt-1 text-[0.8rem] text-gray-500'>{det}</p>
+                    <p className='mt-1 text-[0.8rem] text-gray-500'>{det.det}</p>
                 </div>
                 ))}
             </section>
