@@ -1,13 +1,14 @@
 "use client";
 import React, { useRef, useState } from 'react'
 import Navbar from './Navbar'
+import { title } from 'process';
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const prevIndex = useRef(0)
     const slides = [
         {img:'/hero-4.jpg', title: "Talented Consultants", details: "With over 20 years experience helping business to find comprehensive solutions"},
-        '/hero-5.jpeg',
+        {img: '/hero-5.jpeg', title:""},
         '/hero-6.jpg',
     ];
 
