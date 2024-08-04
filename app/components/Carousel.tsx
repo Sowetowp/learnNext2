@@ -17,7 +17,9 @@ const Carousel = () => {
             return "100%"
         }else if(index === slides.length-1 && currentIndex === 0 ){
             return "-100%"
-        }else if(index === )
+        }else if(index === currentIndex-1){
+            
+        }
     }
 
     const handlePrev = () => {
