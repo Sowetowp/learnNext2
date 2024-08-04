@@ -21,3 +21,13 @@
     text-wrap: balance;
   }
 }
+.parallax {
+  background-image: url("img_parallax.jpg");
+min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
