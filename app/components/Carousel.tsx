@@ -41,7 +41,7 @@ const Carousel = () => {
         <>
             <main className='h-screen bg-black m-auto w-full max-w-7xl relative'>
                 {slides.map((slide, index) => (
-                    <div key={index} className={`h-full w-full absolute ${currentIndex === index ? "z-[11]" : currentIndex === slides.length - 1 && index === 0 ? "-z-10" : index === slides.length - 1 && currentIndex === 0  ? "-z-10" : "z-10"} transition-transform duration-500`} style={{ transform: `translateX(${position(index)})` }}>
+                    <div key={index} className={`h-full w-full absolute ${currentIndex === index ? "z-[11]" : currentIndex === slides.length - 1 && index === 0 ? "-z-10" : index === slides.length - 1 && currentIndex === 0 && next ? "-z-10" : "z-10"} transition-transform duration-500`} style={{ transform: `translateX(${position(index)})` }}>
                         <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
                             <span className='pt-20'>
                                 <p className='text-white font-bold text-5xl'>Talented Consultants</p>
