@@ -62,7 +62,7 @@ const Navbar = () => {
                         </label>
                     </div>
                 </section>
-                <section className={`w-full m-auto max-w-7xl md:hidden flex-col ${menu ? "flex opacity-100" : "hidden opacity-0"} transitio`}>
+                <section className={`w-full m-auto max-w-7xl md:hidden flex-col ${menu ? "flex opacity-100" : "hidden opacity-0"} transition-opacity`}>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]'>HOME</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">ABOUT</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">SERVICES</a>
