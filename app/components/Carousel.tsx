@@ -5,7 +5,7 @@ const Carousel = () => {
   return (
     <>
     <main className='h-screen bg-black w-full max-w-7xl relative'>
-        <div className='h-full w-full absolute'>
+        <div className='h-full w-full ab'>
             <img className='h-full w-full' src="/hero-4.jpg" alt="" />
         </div>
         <Navbar/>
