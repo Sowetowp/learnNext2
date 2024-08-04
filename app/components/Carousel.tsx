@@ -9,6 +9,17 @@ const Carousel = () => {
         '/hero-5.jpeg',
         '/hero-6.jpg',
     ];
+    const handlePrev = () => {
+        setCurrentIndex((prevIndex) =>
+          prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+        );
+      };
+    
+      const handleNext = () => {
+        setCurrentIndex((prevIndex) =>
+          prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+        );
+      };
 
     return (
         <>
