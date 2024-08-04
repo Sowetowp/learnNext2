@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Carousel />
-      <Expert/>
+      <Expert />
     </>
   );
 }
