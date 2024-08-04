@@ -4,7 +4,7 @@ const Award = () => {
   return (
     <>
       <section className='w-full max-w-7xl m-auto'>
-        <div className="parallax">kkkk</div>
+        <div className="parallax"></div>
         <div>kkk</div>
       </section>
     </>
