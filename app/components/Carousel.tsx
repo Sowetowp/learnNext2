@@ -7,7 +7,7 @@ const Carousel = () => {
     <>
     <main className='h-screen bg-black w-full max-w-7xl'>
         <div>
-            <Image width={100} src="../../public/hero-4.jpg" alt='carousel image 1'/>
+            <Image width={100} src="/hero-4.jpg" alt='carousel image 1'/>
         </div>
         <Navbar/>
     </main>
