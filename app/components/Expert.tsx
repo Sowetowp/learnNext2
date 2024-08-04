@@ -11,7 +11,7 @@ const Expert = () => {
             head: "Free Support"
         },
         {
-            img: <svg className='w-5' fill="#fff" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>bell-solid</title> <path className="clr-i-solid clr-i-solid-path-1" d="M32.85,28.13l-.34-.3A14.37,14.37,0,0,1,30,24.9a12.63,12.63,0,0,1-1.35-4.81V15.15A10.81,10.81,0,0,0,19.21,4.4V3.11a1.33,1.33,0,1,0-2.67,0V4.42A10.81,10.81,0,0,0,7.21,15.15v4.94A12.63,12.63,0,0,1,5.86,24.9a14.4,14.4,0,0,1-2.47,2.93l-.34.3v2.82H32.85Z"></path><path className="clr-i-solid clr-i-solid-path-2" d="M15.32,32a2.65,2.65,0,0,0,5.25,0Z"></path> <rect x="0" y="0" width="36" height="36" fill-opacity="0"></rect> </g></svg>,
+            img: <svg fill="#000000" viewBox="0 -8 72 72" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>computer</title><path d="M57.43,8V7.94H14.55V8A2.84,2.84,0,0,0,12,10.55V38.73a2.75,2.75,0,0,0,.38,1.41,2.62,2.62,0,0,0,2.44,1.43H30.26v3.9H27.32a1.3,1.3,0,0,0,0,2.59H44.66a1.3,1.3,0,1,0,0-2.59H41.72v-3.9H57.19a2.63,2.63,0,0,0,2.45-1.43,2.91,2.91,0,0,0,.4-1.41V10.55A2.9,2.9,0,0,0,57.43,8Zm0,2.77V38.73c0,.16-.07.23-.24.23H14.78c-.16,0-.23-.07-.23-.23V10.55H57.43v.23Z"></path></g></svg>,
             head: "Responsive"
         }
     ]
