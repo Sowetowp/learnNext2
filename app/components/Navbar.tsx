@@ -25,7 +25,7 @@ const Navbar = () => {
         return (...args: any[]) => {
           const later = () => {
             clearTimeout(timeout);
-            func(...args);
+            func(...args: any[]);
           };
           clearTimeout(timeout);
           timeout = setTimeout(later, wait);
