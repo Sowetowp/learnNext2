@@ -23,8 +23,7 @@ const Expert = () => {
                 <div className='w-full px-10 mt-14'>
                     {exp.map((ex, index) => (
                         <div className='w-1/3 md:px-10 text-center'>
-                            <span className='bg-blue-700 inline-block p-6 rounded-full'>
-                            </span>
+                            <span className='bg-blue-700 inline-block p-6 rounded-full'>{ex.img}</span>
                             <p className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
                             <p className='text-sm text-gray-500 mt-3'>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard .</p>
                         </div>
