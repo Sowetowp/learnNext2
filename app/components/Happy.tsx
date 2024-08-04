@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Happy = () => {
+    const 
     return (
         <>
             <section className='w-full max-w-7xl bg-stone-50 p-16'>
