@@ -8,6 +8,9 @@ const Carousel = () => {
         '/hero-4.jpg',
         '/hero-5.jpeg',
         '/hero-6.jpg',
+        '/hero-4.jpg',
+        '/hero-5.jpeg',
+        '/hero-6.jpg',
     ];
 
     const position = (index: any) => {
