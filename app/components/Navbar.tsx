@@ -9,10 +9,8 @@ const Navbar = () => {
             const handleScroll = () => {
                 setScrollHeader(window.pageYOffset > 200);
             };
-
             const debouncedHandleScroll = debounce(handleScroll, 50);
             window.addEventListener('scroll', debouncedHandleScroll);
-
             return () => {
                 window.removeEventListener('scroll', debouncedHandleScroll);
             };
@@ -46,25 +44,20 @@ const Navbar = () => {
                         <a className='text-white text-[0.8rem] font-semibold' href="">CONTACT</a>
                     </div>
                     <div>
-                    /* From Uiverse.io by Shubh0408 */
                         <label>
-                            <div
-                                classn="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
-                            >
-                                <input classn="hidden peer" type="checkbox" />
-                                <div
-                                    classn="w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]"
-                                ></div>
-                                <div
-                                    classn="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden"
-                                ></div>
-                                <div
-                                    classn="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]"
-                                ></div>
+                            <div className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center">
+                                <input className="hidden peer" type="checkbox" />
+                                <div className="w-[50%] h-[2px] bg-white rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]" ></div>
+                                <div className="w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center peer-checked:hidden" ></div>
+                                <div className="w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]" ></div>
                             </div>
                         </label>
-
                     </div>
+                </section>
+                <section className='w-full m-auto max-w-7xl py-7 px-1 md:px-16 flex items-center justify-between'>
+                    <ul>
+                        <li></li>
+                    </ul>
                 </section>
             </header>
         </>
