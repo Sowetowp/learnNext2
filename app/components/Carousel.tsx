@@ -43,7 +43,7 @@ const Carousel = () => {
 
     return (
         <>
-            <main className='h-screen bg-black m-auto w-full max-w-7xl relative'>
+            <main className='h-screen bg-black m-auto w-full overflow-hidden max-w-7xl relative'>
                 {slides.map((slide, index) => (
                     <div key={index} className={`h-full w-full absolute ${currentIndex === index || prevIndex.current === index ? "z-[11]" : "z-10"} transition-transform duration-500`} style={{ transform: `translateX(${position(index)})` }}>
                         <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
