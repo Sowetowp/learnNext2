@@ -54,7 +54,7 @@ const Carousel = () => {
                                 <a href="" className='mt-4 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>OUR SERVICES</a>
                             </span>
                         </div>
-                        <img className='h-full w-full object-cover' src={slide} alt="" />
+                        <img className='h-full w-full object-cover' src={slide.img} alt="" />
                     </div>
                 ))}
                 <Navbar />
