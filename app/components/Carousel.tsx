@@ -9,7 +9,7 @@ const Carousel = () => {
     const slides = [
         {img:'/hero-4.jpg', title: "Talented Consultants", details: "With over 20 years experience helping business to find comprehensive solutions"},
         {img: '/hero-5.jpeg', title:"Qualified Professionals", details: "We have spent thousands of hours to learn technology for solving problems"},
-        {img:'/hero-6.jpg', title: "Returns Guaranteed", details: },
+        {img:'/hero-6.jpg', title: "Returns Guaranteed", details: ""},
     ];
 
     const position = (index: number) => {
