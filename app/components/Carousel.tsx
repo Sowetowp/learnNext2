@@ -62,8 +62,6 @@ const Carousel = () => {
                 </button>
                 <div>
                     <div className={`bg-red-500 border-2 border-white absolute z-20 w-3 h-3 rounded-full`}></div>
-                    <div></div>
-                    <div></div>
                 </div>
                 <Navbar />
             </main>
