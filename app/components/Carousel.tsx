@@ -27,6 +27,7 @@ const Carousel = () => {
                 ))}
                 <Navbar />
             </main>
+            <button >kk</button>
         </>
     )
 }
