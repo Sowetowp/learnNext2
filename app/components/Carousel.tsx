@@ -9,7 +9,7 @@ const Carousel = () => {
                     <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
                         <span>
                             <p className='text-white font-bold text-5xl'>Talented Consultants</p>
-                            <p className='text-white text-base'>With over 20 years experience helping business to find comprehensive solutions</p>
+                            <p className='text-white'>With over 20 years experience helping business to find comprehensive solutions</p>
                             <a href="">OUR SERVICES</a>
                         </span>
                     </div>
