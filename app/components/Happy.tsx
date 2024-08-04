@@ -7,7 +7,7 @@ const Happy = () => {
 <div>
     <img src="" alt="" />
     <p>1,542</p>
-    <p></p>
+    <p>Happy Clients</p>
 </div>
     </section>
     </>
