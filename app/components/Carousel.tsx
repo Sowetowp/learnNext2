@@ -1,12 +1,13 @@
+"use client";
 import React, { useState } from 'react';
 
 const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const slides = [
-    '/h',
-    '/images/slide2.jpg',
-    '/images/slide3.jpg',
+    '/hero-4.jpg',
+    '/hero-5.jpeg',
+    '/hero-6.jpg',
   ];
   
   const handlePrev = () => {
