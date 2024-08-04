@@ -54,7 +54,7 @@ const Navbar = () => {
                         </label>
                     </div>
                 </section>
-                <section className='w-full m-auto max-w-7xl flex flex-col items-start'>
+                <section className='w-full m-auto max-w-7xl flex flex-col justify-center'>
                     <a className='text-white text-[0.8rem] font-semibold'>HOME</a>
                     <a className='text-white text-[0.8rem] font-semibold' href="">ABOUT</a>
                     <a className='text-white text-[0.8rem] font-semibold' href="">SERVICES</a>
