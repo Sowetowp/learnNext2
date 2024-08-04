@@ -9,6 +9,11 @@ const Carousel = () => {
         '/hero-5.jpeg',
         '/hero-6.jpg',
     ];
+
+    const position = (index) => {
+        
+    }
+
     const handlePrev = () => {
         setCurrentIndex((prevIndex) =>
             prevIndex === 0 ? slides.length - 1 : prevIndex - 1
