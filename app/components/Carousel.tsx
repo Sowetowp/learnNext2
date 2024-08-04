@@ -6,7 +6,7 @@ const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const prevIndex = useRef(0)
     const slides = [
-        '/hero-4.jpg',
+        {img:'/hero-4.jpg'},
         '/hero-5.jpeg',
         '/hero-6.jpg',
     ];
