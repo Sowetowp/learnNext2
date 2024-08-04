@@ -13,7 +13,6 @@ const Navbar = () => {
           const debouncedHandleScroll = debounce(handleScroll, 50);
           window.addEventListener('scroll', debouncedHandleScroll);
     
-          // Cleanup the event listener on component unmount
           return () => {
             window.removeEventListener('scroll', debouncedHandleScroll);
           };
