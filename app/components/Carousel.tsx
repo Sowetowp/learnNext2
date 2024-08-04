@@ -5,6 +5,7 @@ const Carousel = () => {
   return (
     <>
     <Navbar/>
+    
     </>
   )
 }
