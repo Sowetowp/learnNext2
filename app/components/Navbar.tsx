@@ -20,9 +20,9 @@ const Navbar = () => {
       }, []);
     
       // Debounce function to limit the rate at which a function is executed
-      const debounce = (func: () => void, wait: number) => {
+      const debounce = <T extends (...args: any[]) => void>(func: T, wait: number): (...args: Parameters<T>) => void => {
         let timeout: NodeJS.Timeout;
-        return (...args: any[]) => {
+        return (...args: Parameters<T>) => {
           const later = () => {
             clearTimeout(timeout);
             func(...args);
