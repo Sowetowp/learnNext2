@@ -6,30 +6,30 @@ const Navbar = () => {
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-          const handleScroll = () => {
-            setScrollHeader(window.pageYOffset > 200);
-          };
-    
-          const debouncedHandleScroll = debounce(handleScroll, 50);
-          window.addEventListener('scroll', debouncedHandleScroll);
-    
-          return () => {
-            window.removeEventListener('scroll', debouncedHandleScroll);
-          };
+            const handleScroll = () => {
+                setScrollHeader(window.pageYOffset > 200);
+            };
+
+            const debouncedHandleScroll = debounce(handleScroll, 50);
+            window.addEventListener('scroll', debouncedHandleScroll);
+
+            return () => {
+                window.removeEventListener('scroll', debouncedHandleScroll);
+            };
         }
-      }, []);
-    
-      const debounce = <T extends (...args: any[]) => void>(func: T, wait: number): (...args: Parameters<T>) => void => {
+    }, []);
+
+    const debounce = <T extends (...args: any[]) => void>(func: T, wait: number): (...args: Parameters<T>) => void => {
         let timeout: NodeJS.Timeout;
         return (...args: Parameters<T>) => {
-          const later = () => {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
             clearTimeout(timeout);
-            func(...args);
-          };
-          clearTimeout(timeout);
-          timeout = setTimeout(later, wait);
+            timeout = setTimeout(later, wait);
         };
-      };
+    };
 
     return (
         <>
@@ -46,23 +46,23 @@ const Navbar = () => {
                         <a className='text-white text-[0.8rem] font-semibold' href="">CONTACT</a>
                     </div>
                     <div>
-                    /* From Uiverse.io by Shubh0408 */ 
-<label>
-  <div
-    class="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
-  >
-    <input class="hidden peer" type="checkbox" />
-    <div
-      class="w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]"
-    ></div>
-    <div
-      class="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden"
-    ></div>
-    <div
-      class="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]"
-    ></div>
-  </div>
-</label>
+                    /* From Uiverse.io by Shubh0408 */
+                        <label>
+                            <div
+                                class="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
+                            >
+                                <input class="hidden peer" type="checkbox" />
+                                <div
+                                    class="w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]"
+                                ></div>
+                                <div
+                                    class="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden"
+                                ></div>
+                                <div
+                                    class="w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]"
+                                ></div>
+                            </div>
+                        </label>
 
                     </div>
                 </section>
