@@ -27,12 +27,11 @@ const Carousel = () => {
     }
 useState(()=>{
 
+    setCurrentIndex((prevIndex) =>
+        prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+    );
 },[next])
     const handlePrev = () => {
-        setNext(true)
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? slides.length - 1 : prevIndex - 1
-        );
     };
 
     console.log(currentIndex)
