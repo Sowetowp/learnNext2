@@ -25,7 +25,9 @@ const Carousel = () => {
             return "100%"
         }
     }
+useState(()=>{
 
+},[next])
     const handlePrev = () => {
         setNext(true)
         setCurrentIndex((prevIndex) =>
