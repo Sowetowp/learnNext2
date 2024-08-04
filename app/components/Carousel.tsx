@@ -4,9 +4,9 @@ import Navbar from './Navbar'
 const Carousel = () => {
   return (
     <>
-    <main className='h-screen bg-black'></main>
-    <Navbar/>
-
+    <main className='h-screen bg-black'>
+        <Navbar/>
+    </main>
     </>
   )
 }
