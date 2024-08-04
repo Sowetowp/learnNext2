@@ -5,7 +5,7 @@ const Award = () => {
     <>
     <section>
     <div className="parallax"></div>
-    <div></div>
+    <div>kkk</div>
     </section>
     </>
   )
