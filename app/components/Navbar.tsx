@@ -69,7 +69,7 @@ const Navbar = () => {
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">TEAM</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">WORK</a>
                     <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">BLOG</a>
-                    <a className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">CONTACT</a>
+                    <a onChangeCapture={()=>alert("")} className='text-white text-[0.8rem] font-semibold py-2 text-center bg-[#000000de]' href="">CONTACT</a>
                 </section>
             </header>
         </>
