@@ -5,13 +5,32 @@ const Navbar = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
 
     useEffect(() => {
-        if(typeof window !== "undefined"){ 
-            console.log(typeof window)
-            window.addEventListener("scroll", () => {
-                setScrollHeader(window.pageYOffset > 200)
-            })
+        if (typeof window !== 'undefined') {
+          const handleScroll = () => {
+            setScrollHeader(window.pageYOffset > 200);
+          };
+    
+          const debouncedHandleScroll = debounce(handleScroll, 50);
+          window.addEventListener('scroll', debouncedHandleScroll);
+    
+          return () => {
+            window.removeEventListener('scroll', debouncedHandleScroll);
+          };
         }
-    }, [])
+      }, []);
+    
+      // Debounce function to limit the rate at which a function is executed
+      const debounce = (func: () => void, wait: number) => {
+        let timeout: NodeJS.Timeout;
+        return (...args: any[]) => {
+          const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+          };
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+        };
+      };
 
     return (
         <>
