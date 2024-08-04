@@ -5,7 +5,7 @@ const Carousel: React.FC = () => {
   
   const slides = [
     '/hero-4.jpg',
-    '/images/slide2.jpg',
+    '/hero-',
     '/images/slide3.jpg',
   ];
   
