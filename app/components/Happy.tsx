@@ -25,7 +25,7 @@ const Happy = () => {
     ]
     return (
         <>
-            <section className='w-full max-w-7xl bg-stone-50 p-16'>
+            <section className='w-full max-w-7xl flex items-center bg-stone-50 p-16'>
                 {details.map((det, index)=>(
                 <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center'>
                     {det.img}
