@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const [next, setNext] = useState(0)
+    const [next, setNext] = useState(null)
     const slides = [
         '/hero-4.jpg',
         '/hero-5.jpeg',
@@ -33,6 +33,7 @@ const Carousel = () => {
 
     console.log(currentIndex)
     const handleNext = () => {
+        setNext(false)
         setCurrentIndex((prevIndex) =>
             prevIndex === slides.length - 1 ? 0 : prevIndex + 1
         );
