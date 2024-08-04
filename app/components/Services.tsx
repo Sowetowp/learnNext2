@@ -26,7 +26,7 @@ const Services = () => {
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-1/2 text-center'>There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p>
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
-                        <div key={index} className='md:w-1/3 w-full md:px-10 text-center mt-14'>
+                        <div key={index} className='md:w-1/4 w-full md:px-10 text-center mt-14'>
                             <span className='bg-blue-700 inline-block p-6'>{ex.img}</span>
                             <p className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
                             <p className='text-sm text-gray-500 mt-3'>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard .</p>
