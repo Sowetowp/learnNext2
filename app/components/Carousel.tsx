@@ -20,7 +20,7 @@ const Carousel = () => {
         } else if (index === currentIndex - 1) {
             return "-100%"
         } else if (index === currentIndex + 1) {
-            return "-100%"
+            return "100%"
         }
     }
 
