@@ -7,7 +7,7 @@ const Carousel = () => {
     <main className='h-screen bg-black w-full max-w-7xl relative'>
         <div className='h-full w-full absolute z-10'>
             <div className='h-full w-full absolute bg-[#00000091]'>
-                <p className='text-white font-extrabold text-lg'>Talented Consultants</p>
+                <p className='text-white font-extrabold text-xl'>Talented Consultants</p>
                 <p>With over 20 years experience helping business to find comprehensive solutions</p>
                 <a href="">OUR SERVICES</a>
             </div>
