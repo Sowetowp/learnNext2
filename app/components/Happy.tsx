@@ -78,9 +78,9 @@ const Happy = () => {
     ]
     return (
         <>
-            <section className='w-full max-w-7xl flex items-center flex-wrap bg-stone-50 p-16'>
+            <section className='w-full max-w-7xl flex items-center flex-wrap bg-stone-50 py-8 px-16'>
                 {details.map((det, index) => (
-                    <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center'>
+                    <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center py-8'>
                         {det.img}
                         <p className='text-2xl font-medium mt-2'>{det.num}</p>
                         <p className='mt-1 text-[0.8rem] text-gray-500'>{det.det}</p>
