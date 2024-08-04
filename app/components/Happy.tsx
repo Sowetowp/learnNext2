@@ -5,6 +5,26 @@ const Happy = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
 
     useEffect(() => {
+        const interval = setInterval(() => {
+          if (count < 1991) {
+            setCount(count + 1);
+          }
+          if (count1 < 934) {
+            setCount1(count1 + 1);
+          }
+          if (count2 < 65409) {
+            setCount2(count2 + 25);
+          }
+          if (count3 < 289) {
+            setCount3(count3 + 1);
+          }
+        }, 0.001);
+    
+        return () => {
+          clearInterval(interval);
+        };
+    }, [count, count1, count2, count3]);
+    useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
                 setScrollHeader(window.pageYOffset > 200);
