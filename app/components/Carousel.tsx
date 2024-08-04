@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 
 const Carousel = () => {
-    const []
+    const [currentIndex]
     const slides = [
         '/hero-4.jpg',
         '/hero-5.jpeg',
