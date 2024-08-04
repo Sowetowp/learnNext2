@@ -2,9 +2,11 @@ import React from 'react'
 import Navbar from './Navbar'
 
 const Carousel = () => {
-    const slide = [
-        ""
-    ]
+    const slides = [
+        '/hero-4.jpg',
+        '/hero-5.jpeg',
+        '/hero-6.jpg',
+      ];
     return (
         <>
             <main className='h-screen bg-black w-full max-w-7xl relative'>
