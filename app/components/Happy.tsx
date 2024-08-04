@@ -13,7 +13,7 @@ const Happy = () => {
             if (scrollHeader && count < 1542) {
                 setCount(count + 1);
             }
-            if (scrollHeader && count1 < 934) {
+            if (scrollHeader && count1 < 2591) {
                 setCount1(count1 + 1);
             }
             if (scrollHeader && count2 < 65409) {
