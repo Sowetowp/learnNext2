@@ -4,7 +4,8 @@ const Award = () => {
   return (
     <>
     <section>
-    <div class="parallax"></div>
+    <div className="parallax"></div>
+    <div></div>
     </section>
     </>
   )
