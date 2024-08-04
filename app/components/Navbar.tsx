@@ -48,8 +48,7 @@ const Navbar = () => {
                     <div>
                     /* From Uiverse.io by Shubh0408 */
                         <label>
-                            <div
-                                className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
+                            <div className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center"
                             >
                                 <input className="hidden peer" type="checkbox" />
                                 <div
