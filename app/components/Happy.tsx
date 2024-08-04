@@ -6,7 +6,7 @@ const Happy = () => {
     <section className='w-full max-w-7xl bg-stone-50 px-16 py-5'>
 <div>
     <img src="" alt="" />
-    <p></p>
+    <p>1,542</p>
     <p></p>
 </div>
     </section>
