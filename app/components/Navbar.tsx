@@ -11,7 +11,6 @@ const Navbar = () => {
             };
             const debouncedHandleScroll = debounce(handleScroll, 50);
             window.addEventListener('scroll', debouncedHandleScroll);
-
             return () => {
                 window.removeEventListener('scroll', debouncedHandleScroll);
             };
