@@ -11,7 +11,7 @@ const Founded = () => {
                     <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-1'>- Modern and unique design</p>
                     <a href="" className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>CONTACT US</a>
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2 w-full'>
                     <img className='w-full' src="/features.png" alt="" />
                 </div>
             </section>
