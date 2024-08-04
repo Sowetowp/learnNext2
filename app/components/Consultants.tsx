@@ -19,7 +19,7 @@ const Consultants = () => {
                             </div>
                             <img className='w-full h-[19rem] object-cover' src="/img-10.jpg" alt="" />
                         </div>
-                        <p className='font-medium text-xs tracking-wider'>JAMES WILLAMSON</p>
+                        <p className='font-medium text-xs tracking-wider mt-4 text-center'>JAMES WILLAMSON</p>
                         <p>Founder</p>
                     </div>
                 </div>
