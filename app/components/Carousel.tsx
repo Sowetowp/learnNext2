@@ -26,9 +26,11 @@ const Carousel = () => {
     }
 
     const handlePrev = () => {
+        settoggle(true)
         setCurrentIndex((prevIndex) =>
             prevIndex === 0 ? slides.length - 1 : prevIndex - 1
         );
+        settoggle(false)
     };
 
     console.log(currentIndex)
