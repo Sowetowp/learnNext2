@@ -14,7 +14,7 @@ const Carousel = () => {
         if (index === currentIndex){
             return "0%"
         }else if(currentIndex === slides.length-1 && index === 0 ){
-            return "-100%"
+            return "100%"
         }else if(index === slides.length-1 && currentIndex === 0 ){
             return "100%"
         }
