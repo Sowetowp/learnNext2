@@ -9,7 +9,6 @@ const Navbar = () => {
             const handleScroll = () => {
                 setScrollHeader(window.pageYOffset > 200);
             };
-
             const debouncedHandleScroll = debounce(handleScroll, 50);
             window.addEventListener('scroll', debouncedHandleScroll);
 
