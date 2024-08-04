@@ -13,7 +13,7 @@ const Consultants = () => {
                     <div className='xl:w-1/4 md:w-1/2 w-full text-center mt-14 px-3'>
                         <div>
                             <div></div>
-                            <img src="" alt="" />
+                            <img src="/img-10.jpg" alt="" />
                         </div>
                     </div>
                 </div>
