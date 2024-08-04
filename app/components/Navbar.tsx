@@ -43,7 +43,7 @@ const Navbar = () => {
                         <a className='text-white text-[0.8rem] font-semibold' href="">BLOG</a>
                         <a className='text-white text-[0.8rem] font-semibold' href="">CONTACT</a>
                     </div>
-                    <div md>
+                    <div className=''>
                         <label>
                             <div className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center">
                                 <input className="hidden peer" type="checkbox" />
