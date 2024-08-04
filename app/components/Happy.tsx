@@ -3,8 +3,8 @@ import React from 'react'
 const Happy = () => {
   return (
     <>
-    <section>
-        
+    <section className='w-full max-w-7xl bg-stone-50'>
+
     </section>
     </>
   )
