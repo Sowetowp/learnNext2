@@ -7,6 +7,7 @@ const Consultants = () => {
         { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" },
         { img: "/img-15.jpg", name: "JOHN DOE", post: "DIRECTOR" }
     ]
+    
     return (
         <>
             <section className='w-full max-w-7xl m-auto bg-white py-28'>
