@@ -4,10 +4,10 @@ import React, { useEffect, useState } from 'react'
 const Navbar = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
 
+    console.log(typeof window)
     useEffect(() => {
         if (typeof window !== 'undefined') {
           const handleScroll = () => {
-            console.log(typeof window)
             setScrollHeader(window.pageYOffset > 200);
           };
     
