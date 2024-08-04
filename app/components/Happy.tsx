@@ -7,25 +7,25 @@ const Happy = () => {
     const [count1, setCount1] = useState(0)
     const [count2, setCount2] = useState(0)
     const [count3, setCount3] = useState(0)
-    
+
     useEffect(() => {
         const interval = setInterval(() => {
-          if (scrollHeader && count < 1991) {
-            setCount(count + 1);
-          }
-          if (count1 < 934) {
-            setCount1(count1 + 1);
-          }
-          if (count2 < 65409) {
-            setCount2(count2 + 25);
-          }
-          if (count3 < 289) {
-            setCount3(count3 + 1);
-          }
+            if (scrollHeader && count < 1991) {
+                setCount(count + 1);
+            }
+            if (scrollHeader && count1 < 934) {
+                setCount1(count1 + 1);
+            }
+            if (scrollHeader && count2 < 65409) {
+                setCount2(count2 + 25);
+            }
+            if (scrollHeader && count3 < 289) {
+                setCount3(count3 + 1);
+            }
         }, 0.001);
-    
+
         return () => {
-          clearInterval(interval);
+            clearInterval(interval);
         };
     }, []);
 
@@ -79,12 +79,12 @@ const Happy = () => {
     return (
         <>
             <section className='w-full max-w-7xl flex items-center flex-wrap bg-stone-50 p-16'>
-                {details.map((det, index)=>(
-                <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center'>
-                    {det.img}
-                    <p className='text-2xl font-medium mt-2'>{det.num}</p>
-                    <p className='mt-1 text-[0.8rem] text-gray-500'>{det.det}</p>
-                </div>
+                {details.map((det, index) => (
+                    <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center'>
+                        {det.img}
+                        <p className='text-2xl font-medium mt-2'>{det.num}</p>
+                        <p className='mt-1 text-[0.8rem] text-gray-500'>{det.det}</p>
+                    </div>
                 ))}
             </section>
         </>
