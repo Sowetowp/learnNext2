@@ -8,7 +8,7 @@ const Founded = () => {
         <h2>Founded with the goal to serve expertise</h2>
         <p>- Template is easy to setup and run</p>
         <p>- Free support and lifetime updates</p>
-        <p></p>
+        <p>- Modern and unique design</p>
         </div>
     </section>
     </>
