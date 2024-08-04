@@ -1,24 +1,54 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React, { useState } from 'react';
 
-const Carousel = () => {
-    return (
-        <>
-            <main className='h-screen bg-black w-full max-w-7xl relative'>
-                <div className='h-full w-full absolute z-10'>
-                    <div className='h-full w-full absolute text-center bg-[#00000091] flex justify-center items-center'>
-                        <span className='pt-20'>
-                            <p className='text-white font-bold text-5xl'>Talented Consultants</p>
-                            <p className='text-white mt-3'>With over 20 years experience helping business to find comprehensive solutions</p>
-                            <a href="" className='mt-4 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>OUR SERVICES</a>
-                        </span>
-                    </div>
-                    <img className='h-full w-full object-cover' src="/hero-4.jpg" alt="" />
-                </div>
-                <Navbar />
-            </main>
-        </>
-    )
-}
+const Carousel: React.FC = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  
+  const slides = [
+    '/images/slide1.jpg',
+    '/images/slide2.jpg',
+    '/images/slide3.jpg',
+  ];
+  
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+    );
+  };
 
-export default Carousel
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  return (
+    <div className="relative w-full max-w-3xl mx-auto">
+      <div className="overflow-hidden">
+        <div
+          className="flex transition-transform duration-500"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {slides.map((slide, index) => (
+            <div key={index} className="flex-shrink-0 w-full">
+              <img src={slide} alt={`Slide ${index + 1}`} className="w-full" />
+            </div>
+          ))}
+        </div>
+      </div>
+      <button
+        onClick={handlePrev}
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
+      >
+        &lt;
+      </button>
+      <button
+        onClick={handleNext}
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
+      >
+        &gt;
+      </button>
+    </div>
+  );
+};
+
+export default Carousel;
