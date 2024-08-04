@@ -12,7 +12,7 @@ const Founded = () => {
                     <a href="" className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>CONTACT US</a>
                 </div>
                 <div className='w-1/2'>
-                <img src="/features.png" alt="" />
+                    <img className='w-full' src="/features.png" alt="" />
                 </div>
             </section>
         </>
