@@ -9,7 +9,7 @@ const CaseStudies = () => {
                 <div>
                     <a href="">ALL</a>
                     <a href="">LOGO</a>
-                    
+                    <a href=""></a>
                 </div>
                 <div className='w-full px-10 flex flex-wrap'>
                     
