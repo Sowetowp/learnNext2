@@ -19,7 +19,7 @@ const Blog = () => {
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
                             <p className='font-medium text-xs tracking-wider mt-5 text-center'>{work.title}</p>
-                            <p className='text-[0.8rem] mt-1 text-gray-500'>{work.t}</p>
+                            <p className='text-[0.8rem] mt-1 text-gray-500'>{work.det}</p>
                         </div>
                     ))}
                 </div>
