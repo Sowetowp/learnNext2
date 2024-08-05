@@ -17,7 +17,7 @@ const Blog = () => {
                 <div className='w-full md:px-10 flex flex-wrap'>
                     {works.map((work, index) => (
                         <div key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
-                            <div className='w-full h-64 overflow-hidden'>
+                            <div className='w-full h-64'>
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
                         </div>
