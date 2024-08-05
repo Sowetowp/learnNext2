@@ -1,5 +1,5 @@
 import React from 'react'
-import { Map, Marker, Popup } from 'pigeon-maps';
+import { Map, Marker } from 'pigeon-maps';
 
 const Contact = () => {
     const exp = [
