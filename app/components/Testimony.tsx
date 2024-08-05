@@ -11,7 +11,7 @@ const Testimony = () => {
                         <div className='bg-white p-5 shadow'>
 <img src="" alt="" />
 <p className='font-medium text-xs tracking-wider mt-5 text-center'>JAMES WILLAMSON</p>
-                            <p className='text-[0.8rem] mt-1 text-gray-500'>{ex.post}</p>
+                            <p className='text-[0.8rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
                         </div>
                     </div>
                 </div>
