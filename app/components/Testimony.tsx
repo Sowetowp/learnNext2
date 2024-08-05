@@ -12,6 +12,28 @@ const Testimony = () => {
         { img: "/img_4.png" },
         { img: "/img_5.png" }
     ]
+    const AutoScrollSection: React.FC = () => {
+        const scrollContainerRef = useRef<HTMLDivElement>(null);
+      
+        useEffect(() => {
+          const scrollContainer = scrollContainerRef.current;
+      
+          if (!scrollContainer) return;
+      
+          const scrollContentWidth = scrollContainer.scrollWidth / 2; // Width of original content (not duplicated content)
+      
+          function autoScroll() {
+            if (scrollContainer.scrollLeft >= scrollContentWidth) {
+              scrollContainer.scrollLeft -= scrollContentWidth; // Reset to start of content
+            } else {
+              scrollContainer.scrollLeft += 1;
+            }
+          }
+      
+          const scrollInterval = setInterval(autoScroll, 20); // Adjust speed as needed
+      
+          return () => clearInterval(scrollInterval); // Cleanup on unmount
+        }, []);
     return (
         <>
             <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
