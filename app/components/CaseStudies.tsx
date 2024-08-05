@@ -21,6 +21,7 @@ const CaseStudies = () => {
           <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">PRINT</a>
         </div>
         <div className='w-full px-10 flex flex-wrap'>
+          {}
           <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
             <div className='w-full h-64 overflow-hidden'>
               <img className='w-full object-cover h-full hover:h-[80%] transition-all duration-500' src="/img_2.jpg" alt="" />
