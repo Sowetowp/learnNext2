@@ -8,7 +8,7 @@ const Testimony = () => {
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                 <div className='w-full px-10 flex flex-wrap'>
                     <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
-                        <div className='bg-white'>
+                        <div className='bg-white p-5 shadow'>
 
                         </div>
                     </div>
