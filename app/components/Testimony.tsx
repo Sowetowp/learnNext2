@@ -7,10 +7,10 @@ const Testimony = () => {
         { img: "/img_6 (1).jpg" }
     ]
     const sponsors = [
-        { img: "/img_1.jpg" },
-        { img: "/img_2.jpg" },
-        { img: "/img_4.jpg" },
-        { img: "/img_5.jpg" }
+        { img: "/img_1.png" },
+        { img: "/img_2.png" },
+        { img: "/img_4.png" },
+        { img: "/img_5.png" }
       ]
     return (
         <>
