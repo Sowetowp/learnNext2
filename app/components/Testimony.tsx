@@ -19,7 +19,7 @@ const AutoScrollSection: React.FC = () => {
       }
     }
 
-    const scrollInterval = setInterval(autoScroll, 20); // Adjust speed as needed
+    const scrollInterval = setInterval(autoScroll, 1); // Adjust speed as needed
 
     return () => clearInterval(scrollInterval); // Cleanup on unmount
   }, []);
