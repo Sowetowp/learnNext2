@@ -32,7 +32,7 @@ const CaseStudies = () => {
             </div>
           ))}
         </div>
-        <div onClick={() => setPreview("")} className={`${preview === "" ? "hidden opacity-0" : "fixed opacity-100"} transition-all duration-500 top-0 w-full h-screen bg-[#0000003a] z-[99999]`}>
+        <div onClick={() => setPreview("")} className={`${preview === "" ? " opacity-0" : "fixed opacity-100"} transition-all duration-500 top-0 w-full h-screen bg-[#0000003a] z-[99999]`}>
           <div className='flex items-center justify-center w-full h-full'>
             <img className='w-full md:w-[50%]' src="/img_2.jpg" alt="" />
           </div>
