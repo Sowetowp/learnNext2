@@ -36,6 +36,7 @@ const Contact = () => {
                     ))}
                 </div>
                 <div className='w-full px-7'>
+                    <div className='md:w-1/2 w-full px-3'>k</div>
                     <div className='md:w-1/2 w-full px-3'></div>
                 </div>
             </section>
