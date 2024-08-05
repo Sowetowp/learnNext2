@@ -34,7 +34,7 @@ const CaseStudies = () => {
         </div>
         <div onClick={() => setPreview("")} className={`${preview === "" ? "hidden" : "fixed"} top-0 w-full h-screen bg-[#0000003a] z-[99999]`}>
           <div className='flex items-center justify-center w-full h-full'>
-            <img className='w-full md:w-[50%]' src="/img_2.jpg" alt="" />
+            <img className='w-full md:w-[50%]' src={preview} alt="" />
           </div>
         </div>
       </section>
