@@ -15,7 +15,7 @@ const CaseStudies = () => {
         <div className='w-full px-10 flex flex-wrap'>
           <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
             <div className='w-full h-64 overflow-hidden'>
-              <img className='w-full object-cover h-full hover:h-[80%]' src="/img_2.jpg" alt="" />
+              <img className='w-full object-cover h-full hover:h-[80%] transi' src="/img_2.jpg" alt="" />
               <p className='h-[20%] bg-blue-700 px-4 flex items-center text-lg text-white'>Lightbox</p>
             </div>
           </div>
