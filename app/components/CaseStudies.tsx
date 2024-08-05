@@ -20,6 +20,9 @@ const CaseStudies = () => {
             </div>
           </div>
         </div>
+        <div>
+          <img src="" alt="" />
+        </div>
       </section>
     </>
   )
