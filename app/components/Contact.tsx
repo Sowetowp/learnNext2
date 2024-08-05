@@ -1,5 +1,4 @@
 import React from 'react'
-import { Map, Marker } from 'pigeon-maps';
 
 const Contact = () => {
     const exp = [
@@ -38,14 +37,7 @@ const Contact = () => {
                 </div>
                 <div className='w-full px-10'>
                     <div className='md:w-1/2 w-full px-3'>
-                    <Map
-      center={[6.5965, 3.3421]}
-      zoom={13}
-      height={500}
-      
-    >
-      <Marker anchor={[6.5965, 3.3421]} />
-    </Map>
+                    
                     </div>
                     <div className='md:w-1/2 w-full px-3'></div>
                 </div>
