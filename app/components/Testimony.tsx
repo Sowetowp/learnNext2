@@ -24,7 +24,7 @@ const Testimony = () => {
                     ))}
                 </div>
             </section>
-            <marquee behavior="" direction=""></marquee>
+            <marquee ></marquee>
         </>
     )
 }
