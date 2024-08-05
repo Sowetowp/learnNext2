@@ -11,7 +11,7 @@ const Testimony = () => {
         { img: "/img_2.png" },
         { img: "/img_4.png" },
         { img: "/img_5.png" }
-      ]
+    ]
     return (
         <>
             <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
@@ -21,7 +21,7 @@ const Testimony = () => {
                     {works.map((test, index) => (
                         <div key={index} className='xl:w-1/3 md:w-1/2 w-full mt-14 px-5'>
                             <div className='bg-white p-16 shadow text-center'>
-                                <img src={test.img} alt="" className='w-24 rounded-full m-auto'/>
+                                <img src={test.img} alt="" className='w-24 rounded-full m-auto' />
                                 <p className='font-medium text-xs tracking-wider mt-6 text-center'>JAMES WILLAMSON</p>
                                 <p className='text-[0.7rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
                                 <p className='text-sm text-gray-500 mt-4'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
@@ -30,6 +30,7 @@ const Testimony = () => {
                     ))}
                 </div>
                 <div className='w-full pt-16'>
+                    {sponsors.map((sp), index)=>}
                     <img src="" alt="" />
                 </div>
             </section>
