@@ -12,6 +12,7 @@ const Testimony = () => {
 <img src="" alt="" />
 <p className='font-medium text-xs tracking-wider mt-5 text-center'>JAMES WILLAMSON</p>
                             <p className='text-[0.8rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
+                            <p className='text-sm text-gray-500 mt-3'></p>
                         </div>
                     </div>
                 </div>
