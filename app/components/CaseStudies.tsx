@@ -3,8 +3,8 @@ import React from 'react'
 const CaseStudies = () => {
   const works = [
     {img: "/img_2.jpg"},
-    {img: "/img_2.jpg"},
-    {img: "/img_2.jpg"},
+    {img: "/img_4.jpg"},
+    {img: "/img_.jpg"},
     {img: "/img_2.jpg"},
     {img: "/img_2.jpg"},
     {img: "/img_2.jpg"}
