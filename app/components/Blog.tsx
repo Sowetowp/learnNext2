@@ -18,7 +18,7 @@ const Blog = () => {
                     {works.map((work, index) => (
                         <div key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
                             <div className='w-full h-64'>
-                                <p className='bg-blue-700 w-fit px-4 py-1 '>JAN 11</p>
+                                <p className='bg-blue-700 w-fit px-4 py-1 text-xs text-white'>JAN 11</p>
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
                         </div>
