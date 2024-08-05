@@ -6,7 +6,7 @@ const Testimony = () => {
         { img: "/img_4 (1).jpg" },
         { img: "/img_6 (1).jpg" }
     ]
-    const works = [
+    const sponsors = [
         { img: "/img_2.jpg" },
         { img: "/img_4.jpg" },
         { img: "/img_6.jpg" },
