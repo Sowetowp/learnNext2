@@ -18,6 +18,7 @@ const Blog = () => {
                                 <p className='bg-blue-700 w-fit bottom-0 px-4 absolute py-2 text-xs text-white'>JAN 11</p>
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
+                            
                         </div>
                     ))}
                 </div>
