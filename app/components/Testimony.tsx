@@ -24,7 +24,6 @@ const Testimony = () => {
                     ))}
                 </div>
             </section>
-            <marquee ></marquee>
         </>
     )
 }
