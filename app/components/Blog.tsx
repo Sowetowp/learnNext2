@@ -18,7 +18,7 @@ const Blog = () => {
                     {works.map((work, index) => (
                         <div key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
                             <div className='w-full h-64 overflow-hidden'>
-                                <img className='w-full object-cover h-full hover:h-[80%] transition-all duration-500' src={work.img} alt="" />
+                                <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
                         </div>
                     ))}
