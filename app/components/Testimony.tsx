@@ -15,7 +15,7 @@ const Testimony = () => {
                     {works.map((test, index) => (
                         <div key={index} className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
                             <div className='bg-white p-5 shadow text-center'>
-                                <img src={test.img} alt="" className=''/>
+                                <img src={test.img} alt="" className='w-'/>
                                 <p className='font-medium text-xs tracking-wider mt-5 text-center'>JAMES WILLAMSON</p>
                                 <p className='text-[0.8rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
                                 <p className='text-sm text-gray-500 mt-3'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
