@@ -13,7 +13,11 @@ const CaseStudies = () => {
                     <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">PRINT</a>
                 </div>
                 <div className='w-full px-10 flex flex-wrap'>
-                    
+                    <div className=''>
+                      <div>
+
+                      </div>
+                    </div>
                 </div>
             </section>
         </>
