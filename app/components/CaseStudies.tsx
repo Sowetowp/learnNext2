@@ -24,7 +24,7 @@ const CaseStudies = () => {
         </div>
         <div className='w-full px-10 flex flex-wrap'>
           {works.map((work, index) => (
-            <div onClick={()=>setPreview(work.img)} key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
+            <div onClick={() => setPreview(work.img)} key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
               <div className='w-full h-64 overflow-hidden'>
                 <img className='w-full object-cover h-full hover:h-[80%] transition-all duration-500' src={work.img} alt="" />
                 <p className='h-[20%] bg-blue-700 px-4 flex items-center text-lg text-white'>Lightbox</p>
@@ -32,7 +32,7 @@ const CaseStudies = () => {
             </div>
           ))}
         </div>
-        <div onClick={()=>setPreview("")} className={`${preview === ""?"hidden":"fixed"} top-0 w-full h-screen bg-[#0000003a] z-[99999]`}>
+        <div onClick={() => setPreview("")} className={`${preview === "" ? "hidden" : "fixed"} top-0 w-full h-screen bg-[#0000003a] z-[99999]`}>
           <div className='flex items-center justify-center w-full h-full'>
             <img className='w-full md:w-[50%]' src="/img_2.jpg" alt="" />
           </div>
