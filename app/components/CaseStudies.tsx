@@ -20,7 +20,7 @@ const CaseStudies = () => {
             </div>
           </div>
         </div>
-        <div className='fix'>
+        <div className='fixed top-0 w-full h-screen'>
           <img src="/img_2.jpg" alt="" />
         </div>
       </section>
