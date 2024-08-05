@@ -23,6 +23,7 @@ const Testimony = () => {
                         </div>
                     ))}
                 </div>
+                
             </section>
         </>
     )
