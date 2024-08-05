@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
     const works = [
-        { img: "/img_2.jpg" },
+        { img: "/img_9.jpg" },
         { img: "/img_4.jpg" },
         { img: "/img_6.jpg" },
         { img: "/img_7.jpg" },
