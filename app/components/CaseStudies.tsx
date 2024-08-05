@@ -2,12 +2,12 @@ import React from 'react'
 
 const CaseStudies = () => {
   const works = [
-    {img: "/img_2.jpg"},
-    {img: "/img_4.jpg"},
-    {img: "/img_6.jpg"},
-    {img: "/img_7.jpg"},
-    {img: "/img_10.jpg"},
-    {img: "/img_12.jpg"}
+    { img: "/img_2.jpg" },
+    { img: "/img_4.jpg" },
+    { img: "/img_6.jpg" },
+    { img: "/img_7.jpg" },
+    { img: "/img_10.jpg" },
+    { img: "/img_12.jpg" }
   ]
   return (
     <>
@@ -21,15 +21,14 @@ const CaseStudies = () => {
           <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">PRINT</a>
         </div>
         <div className='w-full px-10 flex flex-wrap'>
-          {works.map((work, index)=>(
-            
-          ))}
-          <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
-            <div className='w-full h-64 overflow-hidden'>
-              <img className='w-full object-cover h-full hover:h-[80%] transition-all duration-500' src="/img_2.jpg" alt="" />
-              <p className='h-[20%] bg-blue-700 px-4 flex items-center text-lg text-white'>Lightbox</p>
+          {works.map((work, index) => (
+            <div key={index} className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
+              <div className='w-full h-64 overflow-hidden'>
+                <img className='w-full object-cover h-full hover:h-[80%] transition-all duration-500' src="/img_2.jpg" alt="" />
+                <p className='h-[20%] bg-blue-700 px-4 flex items-center text-lg text-white'>Lightbox</p>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
         <div className='hidden fixe top-0 w-full h-screen bg-[#0000003a] z-[99999]'>
           <div className='flex items-center justify-center w-full h-full'>
