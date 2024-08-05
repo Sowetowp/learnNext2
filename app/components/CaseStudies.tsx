@@ -6,7 +6,7 @@ const CaseStudies = () => {
     {img: "/img_4.jpg"},
     {img: "/img_6.jpg"},
     {img: "/img_7.jpg"},
-    {img: "/img_2.jpg"},
+    {img: "/img_10.jpg"},
     {img: "/img_2.jpg"}
   ]
   return (
