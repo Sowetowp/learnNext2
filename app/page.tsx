@@ -9,6 +9,7 @@ import Happy from "./components/Happy";
 import CaseStudies from "./components/CaseStudies";
 import Testimony from "./components/Testimony";
 import Blog from "./components/Blog";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <CaseStudies/>
       <Testimony/>
       <Blog/>
+      <Contact/>
     </>
   );
 }
