@@ -1,7 +1,8 @@
-import React from 'react'
+
+import React, { useState } from 'react'
 
 const CaseStudies = () => {
-  const [preview, set]
+  const [preview, setPreview] = useState("")
   const works = [
     { img: "/img_2.jpg" },
     { img: "/img_4.jpg" },
