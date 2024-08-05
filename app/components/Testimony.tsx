@@ -3,8 +3,8 @@ import React from 'react'
 const Testimony = () => {
     const works = [
         { img: "/img_5.jpg" },
-        { img: "/img_4.jpg" },
-        { img: "/img_6.jpg" }
+        { img: "/img_4(1).jpg" },
+        { img: "/img_6(1).jpg" }
       ]
     return (
         <>
