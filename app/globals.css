@@ -30,11 +30,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
-
-.scroll-animation {
-  animation: scroll 10s linear infinite;
-}
