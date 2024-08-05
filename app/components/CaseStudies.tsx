@@ -16,7 +16,7 @@ const CaseStudies = () => {
                     <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
                       <div className='w-full h-60'>
                         <img className='w-full h-full' src="/img_2.jpg" alt="" />
-                        <div>
+                        <div >
                           <p>Lightbox</p>
                         </div>
                       </div>
