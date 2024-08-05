@@ -3,11 +3,8 @@ import React from 'react'
 const Blog = () => {
     const works = [
         { img: "/img_9.jpg" },
-        { img: "/img_4.jpg" },
-        { img: "/img_6.jpg" },
-        { img: "/img_7.jpg" },
         { img: "/img_10.jpg" },
-        { img: "/img_12.jpg" }
+        { img: "/img_11.jpg" }
     ]
     return (
         <>
