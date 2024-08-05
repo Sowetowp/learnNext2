@@ -36,7 +36,7 @@ const Contact = () => {
                     ))}
                 </div>
                 <div className='w-full '>
-                    <div ></div>
+                    <div className='w-1/2'></div>
                 </div>
             </section>
         </>
