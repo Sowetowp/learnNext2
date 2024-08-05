@@ -1,7 +1,6 @@
-"use client";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import * as L from 'leaflet';
+import L from 'leaflet';
 import { useEffect } from 'react';
 
 const icon = L.icon({
@@ -55,12 +54,12 @@ const Contact = () => {
                 </div>
                 <div className='w-full px-10'>
                     <div className='md:w-1/2 w-full px-3'>
-                    <MapContainer attributionControl={false} center={[6.5965, 3.3421]} zoom={13} className="w-full h-96">
-      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <Marker position={[6.5965, 3.3421]}>
-        <Popup>Na here i dey!!</Popup>
-      </Marker>
-    </MapContainer>
+                        <MapContainer attributionControl={false} center={[6.5965, 3.3421]} zoom={13} className='w-full h-96'>
+                            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                            <Marker position={[6.5965, 3.3421]}>
+                                <Popup>Na here i dey!!</Popup>
+                            </Marker>
+                        </MapContainer>
                     </div>
                     <div className='md:w-1/2 w-full px-3'></div>
                 </div>
