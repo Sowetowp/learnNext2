@@ -2,7 +2,7 @@ import React from 'react'
 
 const CaseStudies = () => {
   const works = [
-    {img: ""}
+    {img: "/img_2.jpg"}
   ]
   return (
     <>
