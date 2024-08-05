@@ -24,7 +24,7 @@ const Testimony = () => {
                     ))}
                 </div>
                 <div className='w-full pt-16'>
-
+                    
                 </div>
             </section>
         </>
