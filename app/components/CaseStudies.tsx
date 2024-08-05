@@ -24,7 +24,7 @@ const CaseStudies = () => {
         </div>
         <div className='w-full md:px-10 flex flex-wrap'>
           {works.map((work, index) => (
-            <div onClick={() => setPreview(works.img)} key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
+            <div onClick={() => setPreview(works[index].img)} key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
               <div className='w-full h-64 overflow-hidden'>
                 <img className='w-full object-cover h-full hover:h-[80%] transition-all duration-500' src={work.img} alt="" />
                 <p className='h-[20%] bg-blue-700 px-4 flex items-center text-lg text-white'>Lightbox</p>
