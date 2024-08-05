@@ -45,7 +45,6 @@ const Contact = () => {
       
     >
       <Marker anchor={[6.5965, 3.3421]} />
-      <Popup anchor={[6.5965, 3.3421]}>Na here i dey!!</Popup>
     </Map>
                     </div>
                     <div className='md:w-1/2 w-full px-3'></div>
