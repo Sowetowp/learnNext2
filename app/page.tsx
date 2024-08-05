@@ -8,6 +8,7 @@ import Consultants from "./components/Consultants";
 import Happy from "./components/Happy";
 import CaseStudies from "./components/CaseStudies";
 import Testimony from "./components/Testimony";
+import Blog from "./components/Blog";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Happy/>
       <CaseStudies/>
       <Testimony/>
+      <Blog/>
     </>
   );
 }
