@@ -1,4 +1,4 @@
-
+"use client";
 import React from 'react'
 import ReactMapGL from '@mapbox/react-map-gl';
 
