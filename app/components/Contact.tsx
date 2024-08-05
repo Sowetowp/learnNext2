@@ -31,7 +31,7 @@ const Contact = () => {
                             <span className='border-2 border-blue-700 inline-block p-6 rounded-full'>{ex.img}</span>
                             <p className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
                             <p className='text-sm text-gray-500 mt-3 max-w-[70%] m-auto'>{ex.det}</p>
-                            <p className='text-sm text-gray-500 mt-3'>{ex.det1}</p>
+                            <p className='text-sm text-gray-500'>{ex.det1}</p>
                         </div>
                     ))}
                 </div>
