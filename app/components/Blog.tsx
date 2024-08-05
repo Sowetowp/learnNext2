@@ -1,3 +1,4 @@
+import { M_PLUS_Code_Latin } from 'next/font/google'
 import React from 'react'
 
 const Blog = () => {
@@ -18,7 +19,7 @@ const Blog = () => {
                     {works.map((work, index) => (
                         <div key={index} className='xl:w-1/3 cursor-pointer md:w-1/2 w-full mt-14 px-3'>
                             <div className='w-full h-64'>
-                                
+                                <M_PLUS_Code_Latin></p>
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
                         </div>
