@@ -8,9 +8,9 @@ const CaseStudies = () => {
                 <p className='mt-7 m-auto text-[0.9rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                 <div className='flex mt-9 justify-center items-center gap-4'>
                     <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">ALL</a>
-                    <a href="">LOGO</a>
-                    <a href="">GRAPHIC</a>
-                    <a href="">PRINT</a>
+                    <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">LOGO</a>
+                    <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">GRAPHIC</a>
+                    <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">PRINT</a>
                 </div>
                 <div className='w-full px-10 flex flex-wrap'>
                     
