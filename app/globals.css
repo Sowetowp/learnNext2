@@ -30,3 +30,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.scroll-content {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.scroll-item {
+  min-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
