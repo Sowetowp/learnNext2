@@ -20,7 +20,7 @@ const CaseStudies = () => {
             </div>
           </div>
         </div>
-        <div className='fixed top-0 w-full h-screen bg-[black]'>
+        <div className='fixed top-0 w-full h-screen bg-[#0000003a] '>
           <img src="/img_2.jpg" alt="" />
         </div>
       </section>
