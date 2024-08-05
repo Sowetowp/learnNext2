@@ -22,9 +22,9 @@ const CaseStudies = () => {
         </div>
         <div className='hidden fixe top-0 w-full h-screen bg-[#0000003a] z-[99999] flex items-center justify-center'>
           <div>
-            
-          </div>
+
           <img className='w-full md:w-[50%]' src="/img_2.jpg" alt="" />
+          </div>
         </div>
       </section>
     </>
