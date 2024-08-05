@@ -9,8 +9,8 @@ const Testimony = () => {
                 <div className='w-full px-10 flex flex-wrap'>
                     <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
                         <div className='bg-white p-5 shadow'>
-<img src="" alt="" />
-<p className='font-medium text-xs tracking-wider mt-5 text-center'>JAMES WILLAMSON</p>
+                            <img src="" alt="" />
+                            <p className='font-medium text-xs tracking-wider mt-5 text-center'>JAMES WILLAMSON</p>
                             <p className='text-[0.8rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
                             <p className='text-sm text-gray-500 mt-3'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
                         </div>
