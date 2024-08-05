@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Consultants from "./components/Consultants";
 import Happy from "./components/Happy";
 import CaseStudies from "./components/CaseStudies";
+import Testimony from "./components/Testimony";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Consultants />
       <Happy/>
       <CaseStudies/>
+      <Testimony/>
     </>
   );
 }
