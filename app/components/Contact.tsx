@@ -1,31 +1,24 @@
 "use client";
 import React, { useEffect } from 'react';
-import Map from 'ol/Map';
-import View from 'ol/View';
-import TileLayer from 'ol/layer/Tile';
-import OSM from 'ol/source/OSM';
-import { fromLonLat } from 'ol/proj';
-import 'ol/ol.css';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 const Contact: React.FC = () => {
     useEffect(() => {
-        const map = new Map({
-            target: 'map', // The ID of the DOM element to render the map
-            layers: [
-                new TileLayer({
-                    source: new OSM(), // OpenStreetMap tiles
-                }),
-            ],
-            view: new View({
-                center: fromLonLat([3.3421, 6.5965]), // Longitude and Latitude in EPSG:3857 projection
-                zoom: 13, // Zoom level
-            }),
+        const map = new maplibregl.Map({
+            container: 'map', // Container ID
+            style: 'https://demotiles.maplibre.org/style.json', // Map style
+            center: [3.3421, 6.5965], // Starting position [lng, lat]
+            zoom: 13, // Starting zoom
         });
 
-        return () => {
-            // Cleanup map instance
-            map.setTarget(undefined);
-        };
+        // Add a marker
+        new maplibregl.Marker()
+            .setLngLat([3.3421, 6.5965])
+            .setPopup(new maplibregl.Popup().setText('Na here i dey!!'))
+            .addTo(map);
+
+        return () => map.remove();
     }, []);
 
     return (
