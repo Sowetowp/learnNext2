@@ -23,7 +23,15 @@ const Testimony = () => {
                         </div>
                     ))}
                 </div>
-                
+                <div class="w-full overflow-hidden bg-gray-200 h-24 relative">
+    <div class="flex whitespace-nowrap scroll-animation">
+      <div class="flex-shrink-0 w-full h-24 bg-red-500 flex items-center justify-center text-white">Item 1</div>
+      <div class="flex-shrink-0 w-full h-24 bg-blue-500 flex items-center justify-center text-white">Item 2</div>
+      <div class="flex-shrink-0 w-full h-24 bg-green-500 flex items-center justify-center text-white">Item 3</div>
+      <div class="flex-shrink-0 w-full h-24 bg-yellow-500 flex items-center justify-center text-white">Item 4</div>
+    </div>
+  </div>
+
             </section>
         </>
     )
