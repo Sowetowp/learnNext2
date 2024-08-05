@@ -45,7 +45,12 @@ const Contact = () => {
                 </div>
                 <div className='w-full px-10'>
                     <div className='md:w-1/2 w-full px-3'>
-                    
+                    <ReactMapGL
+      {...viewport}
+      mapStyle="mapbox://styles/mapbox/streets-v11"
+      mapboxApiAccessToken="YOUR_MAPBOX_ACCESS_TOKEN"
+      onViewportChange={(nextViewport) => setViewport(nextViewport)}
+    />
                     </div>
                     <div className='md:w-1/2 w-full px-3'></div>
                 </div>
