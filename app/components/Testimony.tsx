@@ -1,5 +1,5 @@
 "use client";
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 
 const Testimony = () => {
     const works = [
