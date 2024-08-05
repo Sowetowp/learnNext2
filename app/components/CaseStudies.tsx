@@ -15,7 +15,7 @@ const CaseStudies = () => {
                 <div className='w-full px-10 flex flex-wrap'>
                     <div className='xl:w-1/3 md:w-1/2 w-full mt-14 px-3'>
                       <div>
-
+                        
                       </div>
                     </div>
                 </div>
