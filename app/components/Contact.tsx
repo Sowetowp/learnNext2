@@ -42,7 +42,7 @@ const Contact = () => {
       center={[6.5965, 3.3421]}
       zoom={13}
       height={500}
-      width="100%"
+      
     >
       <Marker anchor={[6.5965, 3.3421]} />
       <Popup anchor={[6.5965, 3.3421]}>Na here i dey!!</Popup>
