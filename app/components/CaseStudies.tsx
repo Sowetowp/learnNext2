@@ -17,7 +17,7 @@ const CaseStudies = () => {
                       <div className='w-full h-60'>
                         <img className='w-full h-full' src="/img_2.jpg" alt="" />
                         <div>
-                          <p></p>
+                          <p>Light</p>
                         </div>
                       </div>
                     </div>
