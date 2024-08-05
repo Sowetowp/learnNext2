@@ -38,7 +38,15 @@ const Contact = () => {
                 </div>
                 <div className='w-full px-10'>
                     <div className='md:w-1/2 w-full px-3'>
-                    
+                    <Map
+      center={[6.5965, 3.3421]}
+      zoom={13}
+      height={500}
+      width="100%"
+    >
+      <Marker anchor={[6.5965, 3.3421]} />
+      <Popup anchor={[6.5965, 3.3421]}>Na here i dey!!</Popup>
+    </Map>
                     </div>
                     <div className='md:w-1/2 w-full px-3'></div>
                 </div>
