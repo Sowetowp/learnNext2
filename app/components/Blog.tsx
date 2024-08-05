@@ -18,7 +18,7 @@ const Blog = () => {
                                 <p className='bg-blue-700 w-fit bottom-0 px-4 absolute py-2 text-xs text-white'>JAN 11</p>
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
-                            <p className='font-medium text-xs mt-5 text-center'>{work.title}</p>
+                            <p className='font-medium text-xs mt-5'>{work.title}</p>
                             <p className='text-[0.8rem] mt-1 text-gray-500'>{work.det}</p>
                         </div>
                     ))}
