@@ -23,7 +23,7 @@ const Testimony = () => {
                         </div>
                     ))}
                 </div>
-                <div></div>
+                <div className='w-full'></div>
             </section>
         </>
     )
