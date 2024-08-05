@@ -21,7 +21,7 @@ const CaseStudies = () => {
           </div>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src="/img_2.jpg" alt="" />
         </div>
       </section>
     </>
