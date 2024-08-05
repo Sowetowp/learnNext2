@@ -4,7 +4,7 @@ const Blog = () => {
     const works = [
         { img: "/img_9.jpeg", title: "Points to remember in the meeting", det: "" },
         { img: "/img_10.jpeg", title: "The perfect plan for the business", det: "" },
-        { img: "/img_11.jpeg", title: "", det: "" }
+        { img: "/img_11.jpeg", title: "Analytics is the important factor", det: "" }
     ]
     return (
         <>
