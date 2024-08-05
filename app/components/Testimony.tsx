@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimony = () => {
     const works = [
-        { img: "/img_2.jpg" },
+        { img: "/img_5.jpg" },
         { img: "/img_4.jpg" },
         { img: "/img_6.jpg" },
         { img: "/img_7.jpg" },
