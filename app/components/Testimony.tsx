@@ -23,6 +23,7 @@ const AutoScrollSection: React.FC = () => {
   
       return () => clearInterval(scrollInterval); // Cleanup on unmount
     }, []);
+    
 const Testimony = () => {
     const works = [
         { img: "/img_5.jpg" },
