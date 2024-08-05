@@ -2,9 +2,9 @@ import React from 'react'
 
 const Blog = () => {
     const works = [
-        { img: "/img_9.jpeg",name },
-        { img: "/img_10.jpeg",name },
-        { img: "/img_11.jpeg",name }
+        { img: "/img_9.jpeg", title: "", det: "" },
+        { img: "/img_10.jpeg", title: "", det: "" },
+        { img: "/img_11.jpeg", title: "", det: "" }
     ]
     return (
         <>
