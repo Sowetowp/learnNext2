@@ -17,7 +17,7 @@ const Testimony = () => {
                             <div className='bg-white p-16 shadow text-center'>
                                 <img src={test.img} alt="" className='w-24 rounded-full m-auto'/>
                                 <p className='font-medium text-xs tracking-wider mt-6 text-center'>JAMES WILLAMSON</p>
-                                <p className='text-[0.8rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
+                                <p className='text-[0.7rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
                                 <p className='text-sm text-gray-500 mt-3'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
                             </div>
                         </div>
