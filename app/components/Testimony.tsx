@@ -23,7 +23,9 @@ const Testimony = () => {
                         </div>
                     ))}
                 </div>
-                <div className='w-full py-14'></div>
+                <div className='w-full py-14'>
+                    
+                </div>
             </section>
         </>
     )
