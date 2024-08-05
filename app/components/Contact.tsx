@@ -35,6 +35,9 @@ const Contact = () => {
                         </div>
                     ))}
                 </div>
+                <div className='w-full '>
+                    <div ></div>
+                </div>
             </section>
         </>
     )
