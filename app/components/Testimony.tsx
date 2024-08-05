@@ -1,6 +1,14 @@
 import React from 'react'
 
 const Testimony = () => {
+    const works = [
+        { img: "/img_2.jpg" },
+        { img: "/img_4.jpg" },
+        { img: "/img_6.jpg" },
+        { img: "/img_7.jpg" },
+        { img: "/img_10.jpg" },
+        { img: "/img_12.jpg" }
+      ]
     return (
         <>
             <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
