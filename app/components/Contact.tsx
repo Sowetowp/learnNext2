@@ -1,15 +1,14 @@
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
-import Map from "./Map";
 
 const Contact = () => {
-    // const Map = useMemo(() => dynamic(
-    //     () => import('@/components/map/'),
-    //     {
-    //         loading: () => <p>A map is loading</p>,
-    //         ssr: false
-    //     }
-    // ), [])
+    const Map = useMemo(() => dynamic(
+        () => import('@/components/map/'),
+        {
+            loading: () => <p>A map is loading</p>,
+            ssr: false
+        }
+    ), [])
     const exp = [
         {
             img: <svg className='w-5' version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#1d4ed8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> </style> <g> <polygon className="fill-blue-700" points="434.162,293.382 434.162,493.862 308.321,493.862 308.321,368.583 203.682,368.583 203.682,493.862 77.841,493.862 77.841,293.382 256.002,153.862 "></polygon> <polygon className="fill-blue-700" points="0,242.682 256,38.93 512,242.682 482.21,285.764 256,105.722 29.79,285.764 "></polygon> <polygon className="fill-blue-700" points="439.853,18.138 439.853,148.538 376.573,98.138 376.573,18.138 "></polygon> </g> </g></svg>,
@@ -31,7 +30,6 @@ const Contact = () => {
     ]
     return (
         <>
-        <Map
             <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Get in touch with us</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry standard.</p>
