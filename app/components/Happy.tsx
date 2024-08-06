@@ -5,7 +5,7 @@ interface CarouselProps {
     view: string;
 }
 
-const Happy: React.FC<CarouselProps> = ({view}) => {
+const Happy: React.FC<CarouselProps> = ({ view }) => {
     const [count, setCount] = useState(0)
     const [count1, setCount1] = useState(0)
     const [count2, setCount2] = useState(0)
@@ -13,24 +13,24 @@ const Happy: React.FC<CarouselProps> = ({view}) => {
     const [started, setStarted] = useState<boolean>(false);
 
     useEffect(() => {
-      let interval: NodeJS.Timeout;
-  
-      if (view === "happy" && !started) {
-        setStarted(true); // Mark the counting as started
-  
-        interval = setInterval(() => {
-          setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
-          setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
-          setCount2(prevCount2 => (prevCount2 < 1045 ? prevCount2 + 1 : prevCount2));
-          setCount3(prevCount3 => (prevCount3 < 1347 ? prevCount3 + 1 : prevCount3));
-        }, 1); // 1 millisecond interval for quick counting
-      }
-  
-      return () => {
-        clearInterval(interval);
-      };
-    }, [view, started]);  
-    
+        let interval: NodeJS.Timeout;
+
+        if (view === "happy" && !started) {
+            setStarted(true); // Mark the counting as started
+
+            interval = setInterval(() => {
+                setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
+                setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
+                setCount2(prevCount2 => (prevCount2 < 1045 ? prevCount2 + 1 : prevCount2));
+                setCount3(prevCount3 => (prevCount3 < 1347 ? prevCount3 + 1 : prevCount3));
+            }, 1); // 1 millisecond interval for quick counting
+        }
+
+        return () => {
+            clearInterval(interval);
+        };
+    }, [view, started]);
+
     // useEffect(() => {
     //     if (typeof window !== 'undefined') {
     //         const handleScroll = () => {
