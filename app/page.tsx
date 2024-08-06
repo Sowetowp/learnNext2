@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Carousel from "./components/Carousel";
 import Expert from "./components/Expert";
 import Founded from "./components/Founded";
