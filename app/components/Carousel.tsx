@@ -11,12 +11,12 @@ const Carousel = () => {
         { img: '/hero-6.jpg', title: "Returns Guaranteed", details: "We have helped hundreds of companies to grow their business in the competitive world", url: "", btn: "CASE STUDIES" },
     ];
 
-    useEffect(()=>{
-setInterval(()=>{
-handleNext()
-}, 1000)
-    },[])
-    
+    useEffect(() => {
+        setInterval(() => {
+            handlePrev()
+        }, 1000)
+    }, [])
+
     const position = (index: number) => {
         if (index === currentIndex) {
             return "0%"
