@@ -78,7 +78,7 @@ const Carousel = () => {
                     ))}
                 </div>
                 <Navbar />
-            </section id='sec1'>
+            </section>
         </>
     )
 }
