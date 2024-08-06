@@ -33,30 +33,30 @@ const Happy: React.FC<CarouselProps> = ({view}) => {
         };
     }, [view, count, count1, count2, count3]);
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            const handleScroll = () => {
-                setScrollHeader(window.pageYOffset > 3000);
-            };
-            const debouncedHandleScroll = debounce(handleScroll, 50);
-            window.addEventListener('scroll', debouncedHandleScroll);
-            return () => {
-                window.removeEventListener('scroll', debouncedHandleScroll);
-            };
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (typeof window !== 'undefined') {
+    //         const handleScroll = () => {
+    //             setScrollHeader(window.pageYOffset > 3000);
+    //         };
+    //         const debouncedHandleScroll = debounce(handleScroll, 50);
+    //         window.addEventListener('scroll', debouncedHandleScroll);
+    //         return () => {
+    //             window.removeEventListener('scroll', debouncedHandleScroll);
+    //         };
+    //     }
+    // }, []);
 
-    const debounce = <T extends (...args: any[]) => void>(func: T, wait: number): (...args: Parameters<T>) => void => {
-        let timeout: NodeJS.Timeout;
-        return (...args: Parameters<T>) => {
-            const later = () => {
-                clearTimeout(timeout);
-                func(...args);
-            };
-            clearTimeout(timeout);
-            timeout = setTimeout(later, wait);
-        };
-    };
+    // const debounce = <T extends (...args: any[]) => void>(func: T, wait: number): (...args: Parameters<T>) => void => {
+    //     let timeout: NodeJS.Timeout;
+    //     return (...args: Parameters<T>) => {
+    //         const later = () => {
+    //             clearTimeout(timeout);
+    //             func(...args);
+    //         };
+    //         clearTimeout(timeout);
+    //         timeout = setTimeout(later, wait);
+    //     };
+    // };
 
     const details = [
         {
