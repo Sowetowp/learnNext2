@@ -49,11 +49,11 @@ const Contact = () => {
                     </div>
                     <div className='md:w-1/2 w-full px-3 mt-24'>
                         <form className="flex flex-wrap justify-between">
-                            <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Name*" />
-                            <input className="border bg-stone-100 px-5 py-3 md:mt-0 mt-8 text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Email*" />
-                            <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light mt-8 w-full" type="text" placeholder="Subject" />
-                            <textarea className="border resize-none h-36 bg-stone-100 px-5 py-3 text-sm mt-8 outline-none placeholder:font-light w-full" placeholder="Your Message*" />
-                            <button className="w-full mt-8 font-semibold text-sm text-white py-3 bg-blue-700">SEND MESSAGE</button>
+                            <input className="border bg-stone-100 px-5 py-3 md:text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Name*" />
+                            <input className="border bg-stone-100 px-5 py-3 md:mt-0 mt-8 md:text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Email*" />
+                            <input className="border bg-stone-100 px-5 py-3 md:text-sm outline-none placeholder:font-light mt-8 w-full" type="text" placeholder="Subject" />
+                            <textarea className="border resize-none h-36 bg-stone-100 px-5 py-3 md:text-sm mt-8 outline-none placeholder:font-light w-full" placeholder="Your Message*" />
+                            <button className="w-full mt-8 font-semibold md:text-sm text-white py-3 bg-blue-700">SEND MESSAGE</button>
                         </form>
                     </div>
                 </div>
