@@ -12,6 +12,7 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
     const [count3, setCount3] = useState(0)
     const [started, setStarted] = useState<boolean>(false);
 console.log(started)
+console.log(view)
     useEffect(() => {
         if (!started) {
             return
