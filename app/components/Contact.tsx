@@ -51,7 +51,7 @@ const Contact = () => {
                         <form className="flex flex-wrap justify-between">
                             <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light md:w-[45%] w-full" type="text" placeholder="Name*" />
                             <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light md:w-[45%] w-full" type="text" placeholder="Email*" />
-                            <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light mt-10 w-full" type="text" placeholder="Subject" />
+                            <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light mt-8 w-full" type="text" placeholder="Subject" />
                             <input type="text" placeholder="Your Message*" />
                         </form>
                     </div>
