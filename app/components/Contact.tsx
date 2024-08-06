@@ -3,7 +3,7 @@ import { useMemo } from "react";
 
 const Contact = () => {
     const Map = useMemo(() => dynamic(
-        () => import('@/components/map/'),
+        () => import('./Map'),
         {
             loading: () => <p>A map is loading</p>,
             ssr: false
