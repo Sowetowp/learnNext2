@@ -43,17 +43,17 @@ const Contact = () => {
                         </div>
                     ))}
                 </div>
-                <div className='w-full px-10'>
+                <div className='w-full px-10 flex '>
                     <div className='md:w-1/2 w-full px-3 mt-24 h-96'>
                         <Map posix={[6.5965, 3.3421]} />
                     </div>
                     <div className='md:w-1/2 w-full px-3 mt-24'>
-                    <form>
-                        <input className="border bg-stone-100" type="text" placeholder="Name*" />
-                        <input type="text" placeholder="Email*" />
-                        <input type="text" placeholder="Subject" />
-                        <input type="text" placeholder="Your Message*" />
-                    </form>
+                        <form>
+                            <input className="border bg-stone-100" type="text" placeholder="Name*" />
+                            <input type="text" placeholder="Email*" />
+                            <input type="text" placeholder="Subject" />
+                            <input type="text" placeholder="Your Message*" />
+                        </form>
                     </div>
                 </div>
             </section>
