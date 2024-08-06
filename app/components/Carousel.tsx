@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Navbar from './Navbar'
 
-const Carousel = () => {
+const Carousel = ({view}) => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const prevIndex = useRef(0)
     const nextRef = useRef<HTMLButtonElement>(null);
