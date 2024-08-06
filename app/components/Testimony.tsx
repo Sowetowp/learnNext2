@@ -29,7 +29,7 @@ const Testimony = () => {
                         </div>
                     ))}
                 </div>
-                <div className='w-full pt-28 flex flex-wrap justify-around'>
+                <div className='w-full pt-28 flex flex-wrap'>
                     {sponsors.map((sp, index) => (
                         <div className='w-1/4'>
                             <img className='w-28 mt-4' key={index} src={sp.img} alt="" />
