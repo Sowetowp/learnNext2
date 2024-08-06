@@ -48,7 +48,7 @@ const Contact = () => {
                         <Map posix={[6.5965, 3.3421]} />
                     </div>
                     <div className='md:w-1/2 w-full px-3 mt-24'>
-                        <form>
+                        <form className="flex flex-wrap justify-between">
                             <input className="border bg-stone-100" type="text" placeholder="Name*" />
                             <input type="text" placeholder="Email*" />
                             <input type="text" placeholder="Subject" />
