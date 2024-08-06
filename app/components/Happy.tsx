@@ -14,14 +14,14 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
 console.log(started)
 console.log(view)
     useEffect(() => {
+        if (view === "happy") {
+            setStarted(true);
+        }
         if (!started) {
             return
         }
         let interval: NodeJS.Timeout;
 
-        if (view === "happy") {
-            setStarted(true);
-        }
         interval = setInterval(() => {
             setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
             setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
