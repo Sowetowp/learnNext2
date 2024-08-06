@@ -52,7 +52,7 @@ const Contact = () => {
                         <input type="text" placeholder="Name*" />
                         <input type="text" placeholder="Email*" />
                         <input type="text" placeholder="Subject" />
-                        <input type="text" placeholder="" />
+                        <input type="text" placeholder="Your Message*" />
                     </form>
                     </div>
                 </div>
