@@ -14,16 +14,16 @@ const Happy: React.FC<CarouselProps> = ({view}) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if (scrollHeader && count < 1542) {
+            if (view && count < 1542) {
                 setCount(count + 1);
             }
-            if (scrollHeader && count1 < 2591) {
+            if (view && count1 < 2591) {
                 setCount1(count1 + 1);
             }
-            if (scrollHeader && count2 < 1045) {
+            if (view && count2 < 1045) {
                 setCount2(count2 + 1);
             }
-            if (scrollHeader && count3 < 1347) {
+            if (view && count3 < 1347) {
                 setCount3(count3 + 1);
             }
         }, 0.001);
@@ -31,7 +31,7 @@ const Happy: React.FC<CarouselProps> = ({view}) => {
         return () => {
             clearInterval(interval);
         };
-    }, [scrollHeader, count, count1, count2, count3]);
+    }, [view, count, count1, count2, count3]);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
