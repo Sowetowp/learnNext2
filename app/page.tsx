@@ -33,7 +33,7 @@ export default function Home() {
     }, []);
   return (
     <>
-      <Carousel />
+      <Carousel view={view}/>
       <Expert />
       <Founded />
       <Award />
