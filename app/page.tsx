@@ -16,24 +16,24 @@ import { useEffect, useState } from "react";
 export default function Home() {
   const [view, setView] = useState<string>('');
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const sections = document.querySelectorAll('section');
-            sections.forEach((section) => {
-                const offsetTop = (section as HTMLElement).offsetTop;
-                if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
-                    setView(section.id);
-                }
-            });
-        };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      const sections = document.querySelectorAll('section');
+      sections.forEach((section) => {
+        const offsetTop = (section as HTMLElement).offsetTop;
+        if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
+          setView(section.id);
+        }
+      });
+    };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   return (
     <>
-      <Carousel view={view}/>
+      <Carousel view={view} />
       <Expert />
       <Founded />
       <Award />
