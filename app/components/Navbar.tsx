@@ -1,26 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 
-const Navbar = () => {
+const Navbar = (()) => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [menu, setMenu] = useState(false)
-    const [view, setView] = useState<string>('');
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const sections = document.querySelectorAll('section');
-            sections.forEach((section) => {
-                const offsetTop = (section as HTMLElement).offsetTop;
-                if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
-                    setView(section.id);
-                }
-            });
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
