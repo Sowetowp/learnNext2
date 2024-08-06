@@ -15,20 +15,18 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="scroll-smooth">
-        <Carousel />
-        <Expert />
-        <Founded />
-        <Award />
-        <Services />
-        <Consultants />
-        <Happy />
-        <CaseStudies />
-        <Testimony />
-        <Blog />
-        <Contact />
-        <Footer />
-      </div>
+      <Carousel />
+      <Expert />
+      <Founded />
+      <Award />
+      <Services />
+      <Consultants />
+      <Happy />
+      <CaseStudies />
+      <Testimony />
+      <Blog />
+      <Contact />
+      <Footer />
     </>
   );
 }
