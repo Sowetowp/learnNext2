@@ -6,7 +6,6 @@ interface CarouselProps {
 }
 
 const Happy: React.FC<CarouselProps> = ({view}) => {
-    const [scrollHeader, setScrollHeader] = useState(false)
     const [count, setCount] = useState(0)
     const [count1, setCount1] = useState(0)
     const [count2, setCount2] = useState(0)
