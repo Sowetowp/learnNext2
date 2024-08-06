@@ -62,7 +62,7 @@ const Carousel = () => {
                 </button>
                 <div className='absolute z-20 flex gap-1 w-full justify-center bottom-4'>
                     {slides.map((slide, index) => (
-                        <div onClick={()=>setCurrentIndex(index)} key={index} className={`${index === currentIndex? "bg-white": ""} border-2 border-white w-3 h-3 rounded-full`}></div>
+                        <div onClick={() => setCurrentIndex(index)} key={index} className={`${index === currentIndex ? "bg-white" : ""} border-2 border-white w-3 h-3 rounded-full`}></div>
                     ))}
                 </div>
                 <Navbar />
