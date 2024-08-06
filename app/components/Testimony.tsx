@@ -31,7 +31,7 @@ const Testimony = () => {
                 </div>
                 <div className='w-full pt-28 flex flex-wrap justify-around'>
                     {sponsors.map((sp, index) => (
-                        <img className='w-[20%] px-10 mt-4' key={index} src={sp.img} alt="" />
+                        <img className='w-[20%] px-20 mt-4' key={index} src={sp.img} alt="" />
                     ))}
                 </div>
             </section>
