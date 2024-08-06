@@ -77,7 +77,7 @@ const Carousel = ({view}) => {
                         <div onClick={() => setCurrentIndex(index)} key={index} className={`${index === currentIndex ? "bg-white" : ""} border-2 border-white w-3 h-3 rounded-full`}></div>
                     ))}
                 </div>
-                <Navbar />
+                <Navbar view={view}/>
             </section>
         </>
     )
