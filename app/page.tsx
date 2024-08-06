@@ -13,6 +13,23 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function Home() {
+  const [view, setView] = useState<string>('');
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section) => {
+                const offsetTop = (section as HTMLElement).offsetTop;
+                if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
+                    setView(section.id);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
   return (
     <>
       <Carousel />
