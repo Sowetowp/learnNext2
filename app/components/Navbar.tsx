@@ -21,7 +21,7 @@ const Navbar = () => {
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-  
+console.log(view)  
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
@@ -56,7 +56,6 @@ const Navbar = () => {
     }
     return (
         <>
-        <p>{view}</p>
             <header className={`w-full transition-colors duration-500 ${scrollHeader ? "fixed z-[9999] bg-white shadow" : "relative z-[9999] md:bg-transparent"}`}>
                 <section className='w-full m-auto max-w-7xl py-4 md:py-7 px-3 md:px-8 xl:px-16 flex items-center justify-between'>
                     <h1 className={`text-xl leading-none tracking-widest ${scrollHeader?"text-black":"text-white"}`}>SPERE</h1>
