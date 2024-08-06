@@ -65,12 +65,12 @@ const Navbar = () => {
             </header>
             <section className={`w-full m-auto max-w-7xl md:hidden flex-col flex bg-[#000000de] transition-transform duration-500 ${scrollHeader ? "fixed top-[4.5rem]" : "relative"} z-[9999]`} style={{ transform: `translateX(${menu ? "0%" : "100%"})` }}>
                 <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href='#sec1'>HOME</a>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">ABOUT</a>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">SERVICES</a>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">TEAM</a>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">WORK</a>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">BLOG</a>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">CONTACT</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="#sec2">ABOUT</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="#sec3">SERVICES</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="#sec4">TEAM</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="#sec5">WORK</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="#sec">BLOG</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="#sec">CONTACT</a>
             </section>
         </>
     )
