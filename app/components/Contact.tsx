@@ -53,7 +53,7 @@ const Contact = () => {
                             <input className="border bg-stone-100 px-5 py-3 md:mt-0 mt-8 text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Email*" />
                             <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light mt-8 w-full" type="text" placeholder="Subject" />
                             <textarea className="border resize-none h-32 bg-stone-100 px-5 py-3 text-sm mt-8 outline-none placeholder:font-light w-full" placeholder="Your Message*" />
-                            
+                            <button></button>
                         </form>
                     </div>
                 </div>
