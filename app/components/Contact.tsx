@@ -1,4 +1,6 @@
 import React from 'react'
+import dynamic from "next/dynamic";
+import { useMemo } from "react";
 
 const Contact = () => {
     const exp = [
