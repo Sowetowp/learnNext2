@@ -16,17 +16,19 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
         let interval: NodeJS.Timeout;
 
         if (view === "happy" && !started) {
-            setStarted(true); // Mark the counting as started
+            console.log('Starting interval...');
+            setStarted(true);
 
             interval = setInterval(() => {
                 setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
                 setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
                 setCount2(prevCount2 => (prevCount2 < 1045 ? prevCount2 + 1 : prevCount2));
                 setCount3(prevCount3 => (prevCount3 < 1347 ? prevCount3 + 1 : prevCount3));
-            }, 1); // 1 millisecond interval for quick counting
+            }, 1);
         }
 
         return () => {
+            console.log('Clearing interval...');
             clearInterval(interval);
         };
     }, [view, started]);
