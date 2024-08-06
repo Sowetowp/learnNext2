@@ -44,7 +44,7 @@ const Navbar = () => {
                     <h1 className={`text-xl leading-none tracking-widest ${scrollHeader?"text-black":"text-white"}`}>SPERE</h1>
                     <div className='md:flex gap-8 items-center hidden'>
                         <a href='#sec1' className={`${scrollHeader?"text-black":"text-white"} hover:text-[#1d4ed8] text-[0.8rem] font-semibold`}>HOME</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="sec">ABOUT</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="sec2">ABOUT</a>
                         <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="">SERVICES</a>
                         <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="">TEAM</a>
                         <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="">WORK</a>
