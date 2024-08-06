@@ -14,8 +14,9 @@ const Carousel = () => {
     useEffect(()=>{
 setInterval(()=>{
 handleNext()
-}, 5000)
+}, 1000)
     },[])
+    
     const position = (index: number) => {
         if (index === currentIndex) {
             return "0%"
