@@ -64,7 +64,7 @@ const Carousel: React.FC<CarouselProps> = ({ view }) => {
                             <span className='pt-20'>
                                 <p className='text-white font-bold text-5xl'>{slide.title}</p>
                                 <p className='text-white mt-3 max-w-[95%] m-auto'>{slide.details}</p>
-                                <a href="" className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>{slide.btn}</a>
+                                <a href={slide.url} className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>{slide.btn}</a>
                             </span>
                         </div>
                         <img className='h-full w-full object-cover' src={slide.img} alt="" />
