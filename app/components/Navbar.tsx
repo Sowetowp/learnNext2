@@ -44,12 +44,12 @@ const Navbar = () => {
                     <h1 className={`text-xl leading-none tracking-widest ${scrollHeader?"text-black":"text-white"}`}>SPERE</h1>
                     <div className='md:flex gap-8 items-center hidden'>
                         <a href='#sec1' className={`${scrollHeader?"text-black":"text-white"} hover:text-[#1d4ed8] text-[0.8rem] font-semibold`}>HOME</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="sec2">ABOUT</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec">SERVICES</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec">TEAM</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec">WORK</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec">BLOG</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec">CONTACT</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec2">ABOUT</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec4">SERVICES</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec5">TEAM</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec6">WORK</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec7">BLOG</a>
+                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec8">CONTACT</a>
                     </div>
                     <div className='md:hidden'>
                         <label>
