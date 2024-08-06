@@ -15,6 +15,9 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
+    <div className="scroll-smooth">
+
+    </div>
       <Carousel />
       <Expert />
       <Founded />
