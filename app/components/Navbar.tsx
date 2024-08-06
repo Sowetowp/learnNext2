@@ -64,7 +64,7 @@ const Navbar = () => {
                 </section>
             </header>
             <section className={`w-full m-auto max-w-7xl md:hidden flex-col flex bg-[#000000de] transition-transform duration-500 ${scrollHeader ? "fixed top-[4.5rem]" : "relative"} z-[9999]`} style={{ transform: `translateX(${menu ? "0%" : "100%"})` }}>
-                <a className='text-white text-[0.8rem] font-semibold py-2 text-center'>HOME</a>
+                <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href=''>HOME</a>
                 <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">ABOUT</a>
                 <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">SERVICES</a>
                 <a className='text-white text-[0.8rem] font-semibold py-2 text-center' href="">TEAM</a>
