@@ -60,10 +60,10 @@ const Navbar = () => {
                 <section className='w-full m-auto max-w-7xl py-4 md:py-7 px-3 md:px-8 xl:px-16 flex items-center justify-between'>
                     <h1 className={`text-xl leading-none tracking-widest ${scrollHeader ? "text-black" : "text-white"}`}>SPERE</h1>
                     <div className='md:flex gap-8 items-center hidden'>
-                        <a href='#sec1' className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} hover:text-[#1d4ed8] text-[0.8rem] font-semibold`}>HOME</a>
-                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec2">ABOUT</a>
-                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec4">SERVICES</a>
-                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec5">TEAM</a>
+                        <a href='#sec1' className={`${view === "sec1" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} hover:text-[#1d4ed8] text-[0.8rem] font-semibold`}>HOME</a>
+                        <a className={`${view === "sec2" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec2">ABOUT</a>
+                        <a className={`${view === "sec4" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec4">SERVICES</a>
+                        <a className={`${view === "sec5" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec5">TEAM</a>
                         <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec6">WORK</a>
                         <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec7">BLOG</a>
                         <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec8">CONTACT</a>
