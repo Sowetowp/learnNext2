@@ -11,7 +11,7 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
     const [count2, setCount2] = useState(0)
     const [count3, setCount3] = useState(0)
     const [started, setStarted] = useState<boolean>(false);
-
+console.log(first)
     useEffect(() => {
         let interval: NodeJS.Timeout;
 
