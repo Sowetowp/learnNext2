@@ -12,7 +12,9 @@ const Carousel = () => {
     ];
 
     useEffect(()=>{
-se
+setInterval(()=>{
+
+}, 1)
     },[])
     const position = (index: number) => {
         if (index === currentIndex) {
