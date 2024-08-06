@@ -8,7 +8,7 @@ const Blog = () => {
     ]
     return (
         <>
-            <section className='w-full max-w-7xl m-auto bg-white py-28'>
+            <section id='sec7' className='w-full max-w-7xl m-auto bg-white py-28'>
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Latest news</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p>
                 <div className='w-full md:px-10 flex flex-wrap'>
