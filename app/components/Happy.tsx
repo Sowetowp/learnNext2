@@ -13,6 +13,9 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
     const [started, setStarted] = useState<boolean>(false);
 
     useEffect(() => {
+        if(!started){
+            return
+        }
         let interval: NodeJS.Timeout;
 
         if (view === "happy" && !started) {
