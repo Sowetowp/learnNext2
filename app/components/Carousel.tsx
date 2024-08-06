@@ -13,7 +13,7 @@ const Carousel = () => {
 
     useEffect(()=>{
 setInterval(()=>{
-handleNext()
+// handleNext()
 }, 5000)
     },[])
     const position = (index: number) => {
