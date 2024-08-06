@@ -1,7 +1,11 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 
-const Happy = () => {
+interface CarouselProps {
+    view: string;
+}
+
+const Happy: <CarouselProps> = () => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [count, setCount] = useState(0)
     const [count1, setCount1] = useState(0)
