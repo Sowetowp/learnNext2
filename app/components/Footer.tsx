@@ -9,7 +9,9 @@ const Footer = () => {
                     <p className='text-stone-500 font-bold'>TOP</p>
                 </div>
                 <div>
-                    
+                    <div>
+                        
+                    </div>
                 </div>
             </section>
         </>
