@@ -10,7 +10,7 @@ const Consultants = () => {
     
     return (
         <>
-            <section className='w-full max-w-7xl m-auto bg-white py-28'>
+            <section sec className='w-full max-w-7xl m-auto bg-white py-28'>
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Our expert consultants</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
                 <div className='w-full md:px-10 flex flex-wrap'>
