@@ -14,16 +14,16 @@ const Happy: React.FC<CarouselProps> = ({view}) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if (view && count < 1542) {
+            if (view === "happy" && count < 1542) {
                 setCount(count + 1);
             }
-            if (view && count1 < 2591) {
+            if (view === "happy" && count1 < 2591) {
                 setCount1(count1 + 1);
             }
-            if (view && count2 < 1045) {
+            if (view === "happy" && count2 < 1045) {
                 setCount2(count2 + 1);
             }
-            if (view && count3 < 1347) {
+            if (view === "happy" && count3 < 1347) {
                 setCount3(count3 + 1);
             }
         }, 0.001);
