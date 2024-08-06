@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Navbar from './Navbar'
 
 const Carousel = () => {
@@ -11,6 +11,9 @@ const Carousel = () => {
         { img: '/hero-6.jpg', title: "Returns Guaranteed", details: "We have helped hundreds of companies to grow their business in the competitive world", url: "", btn: "CASE STUDIES" },
     ];
 
+    useEffect(()=>{
+se
+    },[])
     const position = (index: number) => {
         if (index === currentIndex) {
             return "0%"
