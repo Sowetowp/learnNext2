@@ -11,6 +11,7 @@ import Testimony from "./components/Testimony";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [view, setView] = useState<string>('');
