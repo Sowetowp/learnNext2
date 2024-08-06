@@ -50,7 +50,8 @@ const Contact = () => {
                     <div className='md:w-1/2 w-full px-3 mt-24'>
                     <form>
                         <input type="text" placeholder="Name*" />
-                        <input type="text" placeholder="" />
+                        <input type="text" placeholder="Email*" />
+                        <input type="text" />
                     </form>
                     </div>
                 </div>
