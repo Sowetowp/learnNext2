@@ -49,7 +49,7 @@ const Contact = () => {
                     </div>
                     <div className='md:w-1/2 w-full px-3 mt-24'>
                         <form className="flex flex-wrap justify-between">
-                            <input className="border bg-stone-100" type="text" placeholder="Name*" />
+                            <input className="border bg-stone-100 w-[" type="text" placeholder="Name*" />
                             <input type="text" placeholder="Email*" />
                             <input type="text" placeholder="Subject" />
                             <input type="text" placeholder="Your Message*" />
