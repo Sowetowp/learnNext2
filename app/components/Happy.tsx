@@ -29,7 +29,6 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
         }, 1);
 
         return () => {
-            console.log('Clearing interval...');
             clearInterval(interval);
         };
     }, [view, started]);
