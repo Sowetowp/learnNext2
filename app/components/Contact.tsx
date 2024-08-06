@@ -52,7 +52,7 @@ const Contact = () => {
                             <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Name*" />
                             <input className="border bg-stone-100 px-5 py-3 md:mt-0 mt-8 text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Email*" />
                             <input className="border bg-stone-100 px-5 py-3 text-sm outline-none placeholder:font-light mt-8 w-full" type="text" placeholder="Subject" />
-                            <div className="border bg-stone-100 px-5 py-3 mt-8 outline-none placeholder:font-light md:w-[45%] w-full">
+                            <div className="border bg-stone-100 px-5 py-3 mt-8  md:w-[45%] w-full">
                             <input className="bg-transparent text-sm outline-none placeholder:font-light w-full" type="text" placeholder="Your Message*" />
                             </div>
                         </form>
