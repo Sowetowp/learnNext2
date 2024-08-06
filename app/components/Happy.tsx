@@ -18,7 +18,7 @@ console.log(view)
         if (view === "happy" && !started) {
             setStarted(true); // Mark the counting as started
 
-            const interval = setInterval(() => {
+            var interval = setInterval(() => {
                 setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
                 setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
                 setCount2(prevCount2 => (prevCount2 < 1045 ? prevCount2 + 1 : prevCount2));
