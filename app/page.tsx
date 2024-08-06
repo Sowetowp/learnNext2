@@ -1,4 +1,4 @@
-
+"use client";
 import Carousel from "./components/Carousel";
 import Expert from "./components/Expert";
 import Founded from "./components/Founded";
