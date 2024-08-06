@@ -14,7 +14,7 @@ const Carousel = () => {
 
     useEffect(() => {
         setInterval(() => {
-            handlePrev()
+            nextRef.current.click()
         }, 1000)
     }, [])
 
