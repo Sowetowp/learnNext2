@@ -20,14 +20,13 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
 
         if (view === "happy") {
             setStarted(true);
-
-            interval = setInterval(() => {
-                setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
-                setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
-                setCount2(prevCount2 => (prevCount2 < 1045 ? prevCount2 + 1 : prevCount2));
-                setCount3(prevCount3 => (prevCount3 < 1347 ? prevCount3 + 1 : prevCount3));
-            }, 1);
         }
+        interval = setInterval(() => {
+            setCount(prevCount => (prevCount < 1542 ? prevCount + 1 : prevCount));
+            setCount1(prevCount1 => (prevCount1 < 2591 ? prevCount1 + 1 : prevCount1));
+            setCount2(prevCount2 => (prevCount2 < 1045 ? prevCount2 + 1 : prevCount2));
+            setCount3(prevCount3 => (prevCount3 < 1347 ? prevCount3 + 1 : prevCount3));
+        }, 1);
 
         return () => {
             console.log('Clearing interval...');
