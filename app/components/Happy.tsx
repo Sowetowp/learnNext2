@@ -15,7 +15,7 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
     useEffect(() => {
         let interval: NodeJS.Timeout;
 
-        if (view === "happy" && !started) {
+        if (view === "happy") {
             console.log('Starting interval...');
             setStarted(true);
 
