@@ -7,21 +7,21 @@ const Navbar = () => {
     const [view, setView] = useState<string>('');
 
     useEffect(() => {
-      const handleScroll = () => {
-        const scrollTop = window.scrollY;
-        const sections = document.querySelectorAll('section');
-        sections.forEach((section) => {
-          const offsetTop = (section as HTMLElement).offsetTop;
-          if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
-            setView(section.id);
-          }
-        });
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-      return () => window.removeEventListener('scroll', handleScroll);
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section) => {
+                const offsetTop = (section as HTMLElement).offsetTop;
+                if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
+                    setView(section.id);
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-console.log(view)  
+    console.log(view)
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
@@ -58,23 +58,23 @@ console.log(view)
         <>
             <header className={`w-full transition-colors duration-500 ${scrollHeader ? "fixed z-[9999] bg-white shadow" : "relative z-[9999] md:bg-transparent"}`}>
                 <section className='w-full m-auto max-w-7xl py-4 md:py-7 px-3 md:px-8 xl:px-16 flex items-center justify-between'>
-                    <h1 className={`text-xl leading-none tracking-widest ${scrollHeader?"text-black":"text-white"}`}>SPERE</h1>
+                    <h1 className={`text-xl leading-none tracking-widest ${scrollHeader ? "text-black" : "text-white"}`}>SPERE</h1>
                     <div className='md:flex gap-8 items-center hidden'>
-                        <a href='#sec1' className={`${scrollHeader?"text-black":"text-white"} hover:text-[#1d4ed8] text-[0.8rem] font-semibold`}>HOME</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec2">ABOUT</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec4">SERVICES</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec5">TEAM</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec6">WORK</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec7">BLOG</a>
-                        <a className={`${scrollHeader?"text-black":"text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec8">CONTACT</a>
+                        <a href='#sec1' className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} hover:text-[#1d4ed8] text-[0.8rem] font-semibold`}>HOME</a>
+                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec2">ABOUT</a>
+                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec4">SERVICES</a>
+                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec5">TEAM</a>
+                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec6">WORK</a>
+                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec7">BLOG</a>
+                        <a className={`${view === "sec" ? "text-blue-700" : scrollHeader ? "text-black" : "text-white"} text-[0.8rem] hover:text-[#1d4ed8] font-semibold`} href="#sec8">CONTACT</a>
                     </div>
                     <div className='md:hidden'>
                         <label>
                             <div className="w-9 h-10 cursor-pointer flex flex-col items-center justify-center">
                                 <input onChange={(e) => handleMenuChange(e)} className="hidden peer" type="checkbox" />
-                                <div className={`w-[50%] h-[2px] ${scrollHeader?"bg-black":"bg-white"} rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]`} ></div>
-                                <div className={`w-[50%] h-[2px] ${scrollHeader?"bg-black":"bg-white"} rounded-md transition-all duration-300 origin-center peer-checked:hidden`} ></div>
-                                <div className={`w-[50%] h-[2px] ${scrollHeader?"bg-black":"bg-white"} rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]`} ></div>
+                                <div className={`w-[50%] h-[2px] ${scrollHeader ? "bg-black" : "bg-white"} rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]`} ></div>
+                                <div className={`w-[50%] h-[2px] ${scrollHeader ? "bg-black" : "bg-white"} rounded-md transition-all duration-300 origin-center peer-checked:hidden`} ></div>
+                                <div className={`w-[50%] h-[2px] ${scrollHeader ? "bg-black" : "bg-white"} rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]`} ></div>
                             </div>
                         </label>
                     </div>
