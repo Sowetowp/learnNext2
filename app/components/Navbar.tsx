@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 
-const Navbar = ({view}) => {
+const Navbar: React.FC<CarouselProps> = ({view}) => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [menu, setMenu] = useState(false)
 
