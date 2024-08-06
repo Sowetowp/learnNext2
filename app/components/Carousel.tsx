@@ -2,7 +2,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Navbar from './Navbar'
 
-const Carousel = ({view}) => {
+interface CarouselProps {
+    view: string;
+}
+
+const Carousel = ({ view }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const prevIndex = useRef(0)
     const nextRef = useRef<HTMLButtonElement>(null);
@@ -77,7 +81,7 @@ const Carousel = ({view}) => {
                         <div onClick={() => setCurrentIndex(index)} key={index} className={`${index === currentIndex ? "bg-white" : ""} border-2 border-white w-3 h-3 rounded-full`}></div>
                     ))}
                 </div>
-                <Navbar view={view}/>
+                <Navbar view={view} />
             </section>
         </>
     )
