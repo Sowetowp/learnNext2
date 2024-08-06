@@ -27,7 +27,7 @@ const Map = (Map: MapProps) => {
             style={{ height: "100%", width: "100%" }}
         >
             <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                url="#"
             />
             <Marker position={posix} draggable={false}>
                 <Popup>Na here i dey!!</Popup>
