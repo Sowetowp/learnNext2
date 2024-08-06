@@ -44,7 +44,7 @@ const Contact = () => {
                     ))}
                 </div>
                 <div className='w-full px-10'>
-                    <div className='md:w-1/2 w-full px-3'>
+                    <div className='md:w-1/2 w-full px-3 h-96'>
                         <Map posix={[4.79029, -75.69003]} />
                     </div>
                     <div className='md:w-1/2 w-full px-3'></div>
