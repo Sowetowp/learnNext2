@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                     ))}
                 </div>
-                <div className='w-full px-10 flex'>
+                <div className='w-full px-10 flex flex-wrap'>
                     <div className='md:w-1/2 w-full px-3 mt-24 h-96'>
                         <Map posix={[6.5965, 3.3421]} />
                     </div>
