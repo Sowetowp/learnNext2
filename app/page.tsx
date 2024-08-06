@@ -39,7 +39,7 @@ export default function Home() {
       <Award />
       <Services />
       <Consultants />
-      <Happy />
+      <Happy view={view} />
       <CaseStudies />
       <Testimony />
       <Blog />
