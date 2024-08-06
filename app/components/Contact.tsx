@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
+import Map from "./Map";
 
 const Contact = () => {
     // const Map = useMemo(() => dynamic(
