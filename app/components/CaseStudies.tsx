@@ -35,9 +35,9 @@ const CaseStudies = () => {
         <p className='mt-7 m-auto text-[0.9rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
         <div className='flex flex-wrap mt-11 justify-center items-center gap-5'>
           <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks(worksData)}>ALL</a>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks(1)}>LOGO</a>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks(2)}>GRAPHIC</a>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks(3)}>PRINT</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => filterer(1)}>LOGO</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => filterer(2)}>GRAPHIC</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => filterer(3)}>PRINT</a>
         </div>
         <div className='w-full md:px-10 flex flex-wrap'>
           {works.map((work, index) => (
