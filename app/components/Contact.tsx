@@ -36,7 +36,7 @@ const Contact = () => {
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
                         <div key={index} className='md:w-1/3 w-full md:px-6 xl:px-10 text-center mt-14'>
-                            <span className='border-2 border-blue-700 inline-block p-6 rounded-full'>{ex.img}</span>
+                            <span className='border-2 border-blue-700 inline-block p-6 rounded-full' data-aos="fade-up" data-aos-duration="1000">{ex.img}</span>
                             <p className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
                             <p className='text-sm text-gray-500 mt-3 max-w-[70%] m-auto'>{ex.det}</p>
                             <p className='text-sm text-gray-500'>{ex.det1}</p>
