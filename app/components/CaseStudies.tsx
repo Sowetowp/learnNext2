@@ -1,7 +1,10 @@
 "use client";
 import React, { useState } from 'react'
 
-type Work 
+type Work = {
+  id :number,
+  img: string
+}
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
   const [works, setWorks] = useState([])
