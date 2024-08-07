@@ -11,7 +11,9 @@ const Navbar: React.FC<CarouselProps> = ({ view }) => {
     const [current, setCurrent] = useState("home")
     
     useEffect(()=>{
-        view ? setCurrent(view) : setCurrent("home")
+        if(view){
+            setCurrent(view)
+        }
     },[])
     useEffect(() => {
         if (typeof window !== 'undefined') {
