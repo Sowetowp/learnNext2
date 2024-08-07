@@ -14,3 +14,4 @@ const AOSProvider = () => {
     return null
 }
 
+export default AOSProvider
