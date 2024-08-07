@@ -34,10 +34,10 @@ const CaseStudies = () => {
         <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Our case studies</h2>
         <p className='mt-7 m-auto text-[0.9rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
         <div className='flex flex-wrap mt-11 justify-center items-center gap-5'>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">ALL</a>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">LOGO</a>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">GRAPHIC</a>
-          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' href="">PRINT</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks()}>ALL</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks()}>LOGO</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks()}>GRAPHIC</a>
+          <a className='font-medium hover:text-[#1d4ed8] text-xs text-gray-600' onClick={() => setWorks()}>PRINT</a>
         </div>
         <div className='w-full md:px-10 flex flex-wrap'>
           {works.map((work, index) => (
