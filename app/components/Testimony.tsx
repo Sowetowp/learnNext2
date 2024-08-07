@@ -24,7 +24,7 @@ const Testimony = () => {
                                 <img data-aos="fade-up" data-aos-duration="1000" src={test.img} alt="" className='w-24 rounded-full m-auto' />
                                 <p data-aos="fade-up" data-aos-duration="1000" className='font-medium text-xs tracking-wider mt-6 text-center'>JAMES WILLAMSON</p>
                                 <p data-aos="fade-up" data-aos-duration="1000" className='text-[0.7rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
-                                <p className='text-sm text-gray-500 mt-4'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
+                                <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-gray-500 mt-4'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
                             </div>
                         </div>
                     ))}
