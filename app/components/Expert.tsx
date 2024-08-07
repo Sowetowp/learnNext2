@@ -15,7 +15,9 @@ const Expert = () => {
             head: "Responsive"
         }
     ]
-    const expert
+    const expertData = {
+        head: ""
+    }
     return (
         <>
             <section id='sec2' className='w-full max-w-7xl m-auto bg-white py-28'>
