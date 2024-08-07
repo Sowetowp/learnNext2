@@ -27,6 +27,7 @@ const CaseStudies = () => {
   const filterer = (id: number) => {
     let filtered: Work[] = worksData.filter((fil: Work) => fil.id === id)
     setWorks(filtered)
+    setCurrent(id)
   }
 
   return (
