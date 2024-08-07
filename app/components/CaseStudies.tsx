@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 
-interface Work = {
+type Work = {
   id: number,
   img: string
 }
