@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
   const [works, setWorks] = useState([
-    { img: "/img_2.jpg" },
+    { img: "/img_2.jpg" , id:"1" },
     { img: "/img_4.jpg" },
     { img: "/img_6.jpg" },
     { img: "/img_7.jpg" },
