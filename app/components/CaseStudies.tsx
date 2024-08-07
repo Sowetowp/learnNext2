@@ -12,7 +12,9 @@ const CaseStudies = () => {
     { img: "/img_10.jpg", id: "2" },
     { img: "/img_12.jpg", id: "3" }
   ]
-  const filter 
+  const filter = ()=>{
+    
+  }
   return (
     <>
       <section id='sec6' className='w-full max-w-7xl m-auto bg-white py-24'>
