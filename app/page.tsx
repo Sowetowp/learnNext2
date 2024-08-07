@@ -12,13 +12,15 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
   const [view, setView] = useState<string>('');
   useEffect(() => {
     AOS.init();
   }, [])
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
