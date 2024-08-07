@@ -44,7 +44,7 @@ const Contact = () => {
                     ))}
                 </div>
                 <div className='w-full md:px-10 flex flex-wrap'>
-                    <div className='md:w-1/2 w-full px-3 mt-24 h-96'>
+                    <div data-aos="fade-up" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24 h-96'>
                         <Map posix={[6.5965, 3.3421]} />
                     </div>
                     <div className='md:w-1/2 w-full px-3 mt-24'>
