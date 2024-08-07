@@ -7,7 +7,7 @@ interface Work {
 }
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
-  const [preview, setPreview] = useState("")
+  const [current, setCurrent] = useState("")
   const [works, setWorks] = useState<Work[]>([
     { img: "/img_2.jpg", id: 1 },
     { img: "/img_4.jpg", id: 2 },
