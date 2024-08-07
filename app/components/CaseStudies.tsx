@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react'
 
+type Work 
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
   const [works, setWorks] = useState([])
