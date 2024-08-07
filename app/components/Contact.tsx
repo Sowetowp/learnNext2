@@ -47,7 +47,7 @@ const Contact = () => {
                     <div data-aos="fade-right" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24 h-96'>
                         <Map posix={[6.5965, 3.3421]} />
                     </div>
-                    <div className='md:w-1/2 w-full px-3 mt-24'>
+                    <div data-aos="fade-left" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24'>
                         <form className="flex flex-wrap justify-between">
                             <input className="border bg-stone-100 px-5 py-3 text-[16px] md:text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Name*" />
                             <input className="border bg-stone-100 px-5 py-3 md:mt-0 mt-8 text-[16px] md:text-sm outline-none placeholder:font-light md:w-[48%] w-full" type="text" placeholder="Email*" />
