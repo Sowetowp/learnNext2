@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <AOSPro
+      <AOSProvider/>
       <body className={inter.className}>{children}</body>
     </html>
   );
