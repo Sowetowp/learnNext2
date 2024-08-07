@@ -27,7 +27,7 @@ const Services = () => {
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
                         <div key={index} className='xl:w-1/4 md:w-1/2 w-full md:px-10 text-center mt-14'>
-                            <span className='bg-blue-700 inline-block p-4'>{ex.img}</span>
+                            <span data-aos="fade-up" data-aos-duration="1000" className='bg-blue-700 inline-block p-4'>{ex.img}</span>
                             <p className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
                             <p className='text-sm text-gray-500 mt-3'>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard .</p>
                         </div>
