@@ -14,7 +14,7 @@ const Navbar: React.FC<CarouselProps> = ({ view }) => {
         if(view){
             setCurrent(view)
         }
-    },[])
+    },[view])
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
