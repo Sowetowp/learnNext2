@@ -12,7 +12,7 @@ const CaseStudies = () => {
     { img: "/img_10.jpg", id: "2" },
     { img: "/img_12.jpg", id: "3" }
   ]
-  const filter = ()=>{
+  const filter = (id)=>{
     
   }
   return (
