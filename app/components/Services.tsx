@@ -22,7 +22,7 @@ const Services = () => {
     return (
         <>
             <section id='sec4' className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
-                <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Our services</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1000" className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>Our services</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-[60%] xl:w-[40%] text-center'>There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p>
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
