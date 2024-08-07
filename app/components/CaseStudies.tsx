@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 
 type Work = {
-  id :number,
+  id: number,
   img: string
 }
 const CaseStudies = () => {
@@ -16,10 +16,11 @@ const CaseStudies = () => {
     { img: "/img_10.jpg", id: 2 },
     { img: "/img_12.jpg", id: 3 }
   ]
-  const filter = (id: number) => {
-    let filtered: Work[] = worksData.filter((fil:Work) => fil.id === id)
+  const filterer = (id: number) => {
+    let filtered: Work[] = worksData.filter((fil: Work) => fil.id === id)
     setWorks(filtered)
   }
+
   return (
     <>
       <section id='sec6' className='w-full max-w-7xl m-auto bg-white py-24'>
