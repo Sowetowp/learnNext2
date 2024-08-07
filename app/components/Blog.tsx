@@ -14,7 +14,7 @@ const Blog = () => {
                 <div className='w-full md:px-10 flex flex-wrap'>
                     {works.map((work, index) => (
                         <div data-aos="fade-up" data-aos-duration="1000" key={index} className='xl:w-1/3 m-auto cursor-pointer md:w-1/2 w-full mt-14 px-4'>
-                            <div className='w-full h-60 relative'>
+                            <div  className='w-full h-60 relative'>
                                 <p className='bg-blue-700 w-fit bottom-0 px-4 absolute py-2 text-xs text-white'>JAN 11</p>
                                 <img className='w-full object-cover h-full' src={work.img} alt="" />
                             </div>
