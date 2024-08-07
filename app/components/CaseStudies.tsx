@@ -7,7 +7,7 @@ type Work = {
 }
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
-  const [works, setWorks] = useState<Work>([])
+  const [works, setWorks] = useState<Work[]>([])
   const worksData = [
     { img: "/img_2.jpg", id: "1" },
     { img: "/img_4.jpg", id: "2" },
