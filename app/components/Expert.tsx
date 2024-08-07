@@ -22,10 +22,10 @@ const Expert = () => {
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center' data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae. Sapiente quos illum ab rem deleniti adipisci suscipit dignissimos.Sapiente quos illum ab rem deleniti adipisci suscipit dignissimos.</p>
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
-                        <div data-aos="fade-up" data-aos-duration="1000" key={index} className='md:w-1/3 w-full md:px-6 xl:px-10 text-center mt-14'>
-                            <span className='bg-blue-700 inline-block p-6 rounded-full'>{ex.img}</span>
-                            <p className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
-                            <p className='text-sm text-gray-500 mt-3'>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard .</p>
+                        <div key={index} className='md:w-1/3 w-full md:px-6 xl:px-10 text-center mt-14'>
+                            <span data-aos="fade-up" data-aos-duration="1000" className='bg-blue-700 inline-block p-6 rounded-full'>{ex.img}</span>
+                            <p data-aos="fade-up" data-aos-duration="1000" className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
+                            <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-gray-500 mt-3'>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard .</p>
                         </div>
                     ))}
                 </div>
