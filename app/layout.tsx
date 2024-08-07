@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <AOSin
+    <AOSProvid
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>{children}</body>
     </html>
