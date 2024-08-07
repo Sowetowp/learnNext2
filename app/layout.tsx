@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import AOSProvider from "../"
+import AOSProvider from "./components/AOSProvider"
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
