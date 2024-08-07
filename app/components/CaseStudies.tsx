@@ -3,14 +3,14 @@ import React, { useState } from 'react'
 
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
-  const works = [
+  const [works, setWorks] = useState([
     { img: "/img_2.jpg" },
     { img: "/img_4.jpg" },
     { img: "/img_6.jpg" },
     { img: "/img_7.jpg" },
     { img: "/img_10.jpg" },
     { img: "/img_12.jpg" }
-  ]
+  ])
   return (
     <>
       <section id='sec6' className='w-full max-w-7xl m-auto bg-white py-24'>
