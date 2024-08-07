@@ -8,8 +8,11 @@ interface CarouselProps {
 const Navbar: React.FC<CarouselProps> = ({ view }) => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [menu, setMenu] = useState(false)
-    const [menu, setMenu] = useState(false)
+    const [current, setCurrent] = useState(0)
     
+    useEffect(()=>{
+        view ? setCurrent(view) : setCurrent("home")
+    },[])
     useEffect(() => {
         if (typeof window !== 'undefined') {
             const handleScroll = () => {
