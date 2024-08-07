@@ -5,11 +5,11 @@ const CaseStudies = () => {
   const [preview, setPreview] = useState("")
   const [works, setWorks] = useState([
     { img: "/img_2.jpg" , id:"1" },
-    { img: "/img_4.jpg" , id:"" },
-    { img: "/img_6.jpg" , id:"" },
-    { img: "/img_7.jpg" , id:"" },
-    { img: "/img_10.jpg" , id:"" },
-    { img: "/img_12.jpg" , id:"" }
+    { img: "/img_4.jpg" , id:"2" },
+    { img: "/img_6.jpg" , id:"3" },
+    { img: "/img_7.jpg" , id:"1" },
+    { img: "/img_10.jpg" , id:"2" },
+    { img: "/img_12.jpg" , id:"3" }
   ])
   return (
     <>
