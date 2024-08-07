@@ -21,7 +21,7 @@ export default function Home() {
       const scrollTop = window.scrollY;
       const sections = document.querySelectorAll('section');
       sections.forEach((section) => {
-        const offsetTop = (section as HTMLElement).offsetTop + 200;
+        const offsetTop = (section as HTMLElement).offsetTop - 200;
         if (scrollTop >= offsetTop && scrollTop < offsetTop + (section as HTMLElement).offsetHeight) {
           setView(section.id);
         }
