@@ -8,7 +8,7 @@ interface CarouselProps {
 const Navbar: React.FC<CarouselProps> = ({ view }) => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [menu, setMenu] = useState(false)
-    const [current, setCurrent] = useState("")
+    const [current, setCurrent] = useState("home")
     
     useEffect(()=>{
         view ? setCurrent(view) : setCurrent("home")
