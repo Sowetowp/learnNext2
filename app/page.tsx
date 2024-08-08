@@ -32,6 +32,11 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   const texts = {
+    slides: [
+      { img: '/hero-4.jpg', title: "Talented Consultants", details: "With over 20 years experience helping business to find comprehensive solutions", url: "#sec4", btn: "OUR SERVICES" },
+      { img: '/hero-5.jpeg', title: "Qualified Professionals", details: "We have spent thousands of hours to learn technology for solving problems", url: "#sec2", btn: "ABOUT US" },
+      { img: '/hero-6.jpg', title: "Returns Guaranteed", details: "We have helped hundreds of companies to grow their business in the competitive world", url: "#sec6", btn: "CASE STUDIES" },
+  ],
     contactData: {
       head: "Get in touch with us",
       body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry standard.",
