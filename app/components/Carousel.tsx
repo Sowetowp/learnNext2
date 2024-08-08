@@ -3,7 +3,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import Navbar from './Navbar'
 
 interface CarouselProps {
-    view: string;
+    view: string,
+    slides: any,
+    navData: any
 }
 
 const Carousel: React.FC<CarouselProps> = ({ view, slides, navData }) => {
