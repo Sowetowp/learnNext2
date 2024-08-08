@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Award = () => {
+const Award = ({awardData}) => {
   const awardData = "We are award winning business consultant"
   
   return (
