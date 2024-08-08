@@ -1,6 +1,8 @@
 import React from 'react'
 
-interface 
+interface blogProp{
+    blogData: any
+}
 const Blog = ({blogData}) => {
     
     return (
