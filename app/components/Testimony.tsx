@@ -1,7 +1,7 @@
 import { comment } from 'postcss'
 import React from 'react'
 
-
+interface 
 const Testimony = ({testimonyData}) => {
     
     return (
