@@ -9,7 +9,7 @@ const Blog = () => {
     const testimonyData = {
         head: "Our client's testimonials",
         body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-        
+    }
     return (
         <>
             <section id='sec7' className='w-full max-w-7xl m-auto bg-white py-28'>
