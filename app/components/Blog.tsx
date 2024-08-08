@@ -8,7 +8,7 @@ const Blog = () => {
     ]
     const blogData = {
         head: "Latest news",
-        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+        body: "There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
     }
     return (
         <>
