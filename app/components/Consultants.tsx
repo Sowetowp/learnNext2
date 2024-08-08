@@ -3,7 +3,13 @@ import React from 'react'
 const Consultants = () => {
     const consultantData = {
         head:"Our expert consultants",
-        body:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text."
+        body:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+        exp: [
+            { img: "/img-10.jpg", name: "JAMES WILLAMSON", post: "FOUNDER" },
+            { img: "/img-17.jpg", name: "KATE NELSON", post: "ACCOUNTANT" },
+            { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" },
+            { img: "/img-15.jpg", name: "JOHN DOE", post: "DIRECTOR" }
+        ]
     }
     return (
         <>
