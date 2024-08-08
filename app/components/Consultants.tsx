@@ -14,7 +14,7 @@ const Consultants = () => {
         <>
             <section id='sec5' className='w-full max-w-7xl m-auto bg-white py-28'>
                 <h2 data-aos="fade" data-aos-duration="1000" className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>{consultantData.head}</h2>
-                <p data-aos="fade" data-aos-duration="1000" className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
+                <p data-aos="fade" data-aos-duration="1000" className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>{consultantData.body}</p>
                 <div className='w-full md:px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
                         <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center mt-14 px-3'>
