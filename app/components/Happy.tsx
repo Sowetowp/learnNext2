@@ -3,10 +3,11 @@ import React, { useEffect, useState } from 'react'
 
 interface CarouselProps {
     view: string,
-    details: any
+    details: any,
+    
 }
 
-const Happy: React.FC<CarouselProps> = ({ view, details, setCount, setCount1, setC }) => {
+const Happy: React.FC<CarouselProps> = ({ view, details, setCount, setCount1, setCount2, setCount3 }) => {
     const [started, setStarted] = useState<boolean>(false);
 
     useEffect(() => {
