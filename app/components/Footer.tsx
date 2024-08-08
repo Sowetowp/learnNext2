@@ -1,5 +1,6 @@
 import React from 'react'
 
+interface 
 const Footer = ({navData}) => {
     return (
         <>
