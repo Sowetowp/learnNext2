@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface foundedProps{
-    fou
+    foundedData:any
 }
 const Founded = ({foundedData}) => {
     
