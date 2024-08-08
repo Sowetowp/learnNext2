@@ -9,7 +9,6 @@ const Navbar: React.FC<CarouselProps> = ({ view }) => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [menu, setMenu] = useState(false)
     const [current, setCurrent] = useState("sec1")
-    const name = "SPERE"
     useEffect(()=>{
         if(view){
             setCurrent(view)
