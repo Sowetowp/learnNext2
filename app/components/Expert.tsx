@@ -3,7 +3,7 @@ import React from 'react'
 interface expertProp {
     expertData: any
 }
-const Expert: React.FC< = ({expertData}) => {
+const Expert: React.FC<expertProp> = ({expertData}) => {
     
     return (
         <>
