@@ -90,7 +90,7 @@ export default function Home() {
       imp2: "Modern and unique design"
     },
     awardData: "We are award winning business consultant",
-    const servicesData ={
+    servicesData: {
       head:"Our services",
       body:"There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
       exp: [
