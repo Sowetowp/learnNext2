@@ -64,7 +64,7 @@ export default function Home() {
   }
   return (
     <>
-      <Carousel view={view} slides={texts.slides} />
+      <Carousel view={view} slides={texts.slides} nav={} />
       <Expert />
       <Founded />
       <Award />
