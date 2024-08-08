@@ -1,6 +1,8 @@
 import React from 'react'
 
-interface servicesProp 
+interface servicesProp {
+    
+}
 const Services = ({servicesData}) => {
     return (
         <>
