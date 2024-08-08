@@ -182,6 +182,15 @@ testimonyData: {
       { img: "/img_4.png" },
       { img: "/img_5.png" }
   ]
+},
+blogData: {
+  head: "Latest news",
+  body: "There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
+  works: [
+      { img: "/img_9.jpeg", title: "Points to remember in the meeting", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print.", day: "JAN 11" },
+      { img: "/img_10.jpeg", title: "The perfect plan for the business", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print.", day: "JAN 11" },
+      { img: "/img_11.jpeg", title: "Analytics is the important factor", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print.", day: "JAN 11" }
+  ]
 }
   }
   return (
@@ -195,7 +204,7 @@ testimonyData: {
       <Happy view={view} details={texts.details} setCount={setCount} setCount1={setCount1} setCount2={setCount2} setCount3={setCount3} />
       <CaseStudies caseData={texts.caseData} />
       <Testimony testimonyData={texts.testimonyData} />
-      <Blog />
+      <Blog blogData={} />
       <Contact contactData={texts.contactData} />
       <Footer />
     </>
