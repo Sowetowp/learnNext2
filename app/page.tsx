@@ -94,7 +94,7 @@ export default function Home() {
     <>
       <Carousel view={view} slides={texts.slides} navData={texts.navData} />
       <Expert expertData={texts.expertData} />
-      <Founded />
+      <Founded foundedData={texts.foundedData} />
       <Award />
       <Services />
       <Consultants />
