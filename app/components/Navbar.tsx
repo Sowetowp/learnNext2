@@ -5,7 +5,7 @@ interface CarouselProps {
     view: string;
 }
 
-const Navbar: React.FC<CarouselProps> = ({ view }) => {
+const Navbar: React.FC<CarouselProps> = ({ view, navData }) => {
     const [scrollHeader, setScrollHeader] = useState(false)
     const [menu, setMenu] = useState(false)
     const [current, setCurrent] = useState("sec1")
