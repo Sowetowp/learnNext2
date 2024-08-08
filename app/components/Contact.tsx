@@ -28,6 +28,10 @@ const Contact = () => {
             det1: "1-800-044-107"
         }
     ]
+    const blogData = {
+        head: "Latest news",
+        body: "There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
+    }
     return (
         <>
             <section id="sec8" className='w-full overflow-hidden max-w-7xl m-auto bg-stone-50 py-28'>
