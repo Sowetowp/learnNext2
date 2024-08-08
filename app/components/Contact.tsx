@@ -4,7 +4,7 @@ import { useMemo } from "react";
 interface contactDatatype {
 
 }
-const Contact:React.FO<contactDatatype> = ({contactData}) => {
+const Contact:React.FC<contactDatatype> = ({contactData}) => {
     const Map = useMemo(() => dynamic(
         () => import('./Map'),
         {
