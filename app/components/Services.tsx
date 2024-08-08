@@ -21,7 +21,7 @@ const Services = () => {
     ]
     const servicesData ={
         head:"Our services",
-        
+        body:""
     }
     return (
         <>
