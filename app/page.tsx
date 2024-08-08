@@ -82,7 +82,13 @@ export default function Home() {
               body: "Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard ."
           }
       ]
-  }
+  },
+  foundedData: {
+    head: "Founded with the goal to serve expertise",
+    imp: "Template is easy to setup and run",
+    imp1: "Free support and lifetime updates",
+    imp2: "Modern and unique design"
+}
   }
   return (
     <>
