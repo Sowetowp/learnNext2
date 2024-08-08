@@ -16,7 +16,8 @@ const Expert = () => {
         }
     ]
     const expertData = {
-        head: "We are an expert consulting firm."
+        head: "We are an expert consulting firm.",
+        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nemo libero debitis vitae. Sapiente quos illum ab rem deleniti adipisci suscipit dignissimos.Sapiente quos illum ab rem deleniti adipisci suscipit dignissimos."
     }
     return (
         <>
