@@ -4,7 +4,6 @@ interface expertProp {
     expertData: any
 }
 const Expert: React.FC<expertProp> = ({ expertData }) => {
-
     return (
         <>
             <section id='sec2' className='w-full max-w-7xl m-auto bg-white py-28'>
