@@ -32,6 +32,7 @@ const CaseStudies = () => {
   const servicesData ={
     head:"Our services",
     body:"There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
+  }
   return (
     <>
       <section id='sec6' className='w-full max-w-7xl m-auto bg-white py-24'>
