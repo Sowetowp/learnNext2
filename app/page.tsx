@@ -59,7 +59,7 @@ export default function Home() {
   }
   return (
     <>
-      <Carousel view={view} />
+      <Carousel view={view} slides={} />
       <Expert />
       <Founded />
       <Award />
