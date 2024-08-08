@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 interface Work {
   id: number,
@@ -26,6 +26,9 @@ const CaseStudies = () => {
       { img: "/img_12.jpg", id: 3 }
     ]
   }
+  useEffect(()=>{
+    setWorks(caseData.worksData)
+  },[])
   return (
     <>
       <section id='sec6' className='w-full max-w-7xl m-auto bg-white py-24'>
