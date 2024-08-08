@@ -1,6 +1,8 @@
 import React from 'react'
 
-interface 
+interface footerProp{
+    navData:any
+}
 const Footer = ({navData}) => {
     return (
         <>
