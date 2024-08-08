@@ -8,7 +8,8 @@ const Consultants = () => {
         { img: "/img-15.jpg", name: "JOHN DOE", post: "DIRECTOR" }
     ]
     const consultantData = {
-        head:"Our expert consultants"
+        head:"Our expert consultants",
+        body:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text."
     }
     return (
         <>
