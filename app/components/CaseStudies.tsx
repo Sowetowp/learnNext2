@@ -8,14 +8,7 @@ interface Work {
 const CaseStudies = () => {
   const [preview, setPreview] = useState("")
   const [current, setCurrent] = useState(0)
-  const [works, setWorks] = useState<Work[]>([
-    { img: "/img_2.jpg", id: 1 },
-    { img: "/img_4.jpg", id: 2 },
-    { img: "/img_6.jpg", id: 3 },
-    { img: "/img_7.jpg", id: 1 },
-    { img: "/img_10.jpg", id: 2 },
-    { img: "/img_12.jpg", id: 3 }
-  ])
+  const [works, setWorks] = useState<Work[]>([])
   const filterer = (id: number) => {
     let filtered: Work[] = caseData.worksData.filter((fil: Work) => fil.id === id)
     setWorks(filtered)
