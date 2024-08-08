@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Expert = ({expertData: }) => {
+const Expert = ({expertData}) => {
     
     return (
         <>
