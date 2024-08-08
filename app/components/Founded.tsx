@@ -3,7 +3,7 @@ import React from 'react'
 interface foundedProps{
     foundedData:any
 }
-const Founded = ({foundedData}) => {
+const Founded.React.FC<FOU = ({foundedData}) => {
     
     return (
         <>
