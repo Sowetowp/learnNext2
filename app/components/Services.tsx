@@ -19,6 +19,9 @@ const Services = () => {
             head: "Management"
         }
     ]
+    const servicesData ={
+        head:""
+    }
     return (
         <>
             <section id='sec4' className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
