@@ -1,10 +1,10 @@
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 
-interface contactData {
+interface contactDatatype {
 
 }
-const Contact:React.FO<contactData = ({contactData}) => {
+const Contact:React.FO<contactDatatype> = ({contactData}) => {
     const Map = useMemo(() => dynamic(
         () => import('./Map'),
         {
