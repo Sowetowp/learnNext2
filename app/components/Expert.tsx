@@ -1,5 +1,6 @@
 import React from 'react'
 
+interface 
 const Expert = ({expertData}) => {
     
     return (
