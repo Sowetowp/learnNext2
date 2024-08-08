@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface expert {
+interface expertProp {
     expertData: any
 }
 const Expert = ({expertData}) => {
