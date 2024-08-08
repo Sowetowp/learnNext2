@@ -31,7 +31,7 @@ export default function Home() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-  
+  const 
   return (
     <>
       <Carousel view={view} />
