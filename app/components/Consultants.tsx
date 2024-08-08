@@ -3,7 +3,7 @@ import React from 'react'
 interface consultantProp{
     consultantData:any
 }
-const Consultants = ({consultantData}) => {
+const Consultants: cons = ({consultantData}) => {
     return (
         <>
             <section id='sec5' className='w-full max-w-7xl m-auto bg-white py-28'>
