@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div className='w-full md:px-10 flex flex-wrap'>
                     <div data-aos="fade-right" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24 h-96'>
-                        <Map posix={[6.5965, 3.3421]} />
+                        <Map posix={[contactData.coordinate]} />
                     </div>
                     <div data-aos="fade-left" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24'>
                         <form className="flex flex-wrap justify-between">
