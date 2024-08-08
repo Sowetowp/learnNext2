@@ -12,7 +12,7 @@ const Testimony: React.FC<testimonyProp> = ({testimonyData}) => {
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]' data-aos="fade-up" data-aos-duration="1000">{testimonyData.head}</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center' data-aos="fade-up" data-aos-duration="1000">{testimonyData.body}</p>
                 <div className='w-full md:px-10 px-5 flex flex-wrap'>
-                    {testimonyData.works.map((test, index) => (
+                    {testimonyData.works.map((test: any, index: ) => (
                         <div key={index} className='xl:w-1/3 md:w-1/2 m-auto w-full mt-14 md:px-5'>
                             <div data-aos="fade-up" data-aos-duration="1000" className='bg-white md:p-16 p-8 shadow text-center'>
                                 <img data-aos="fade-up" data-aos-duration="1000" src={test.img} alt="" className='w-24 rounded-full m-auto' />
