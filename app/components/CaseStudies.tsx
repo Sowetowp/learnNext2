@@ -8,7 +8,7 @@ interface Work {
 interface caseProps{
   caseData: any
 }
-const CaseStudies = ({caseData}) => {
+const CaseStudies: React.FC<caseProps> = ({caseData}) => {
   const [preview, setPreview] = useState("")
   const [current, setCurrent] = useState(0)
   const [works, setWorks] = useState<Work[]>([])
