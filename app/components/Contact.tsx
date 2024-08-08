@@ -32,7 +32,7 @@ const Contact = () => {
                 det1: "1-800-044-107"
             }
         ],
-        coordinate:{lat:6.5965,lng: 3.3421}
+        coordinate: { lat: 6.5965, lng: 3.3421 }
     }
     return (
         <>
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div className='w-full md:px-10 flex flex-wrap'>
                     <div data-aos="fade-right" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24 h-96'>
-                        <Map posix={[contactData.coordinate]} />
+                        <Map posix={[contactData.coordinate.lat, contactData.coordinate.lng]} />
                     </div>
                     <div data-aos="fade-left" data-aos-duration="1000" className='md:w-1/2 w-full px-3 mt-24'>
                         <form className="flex flex-wrap justify-between">
