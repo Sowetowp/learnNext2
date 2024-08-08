@@ -7,7 +7,9 @@ const Consultants = () => {
         { img: "/img-13.jpg", name: "LISA RAY", post: "DESIGNER" },
         { img: "/img-15.jpg", name: "JOHN DOE", post: "DIRECTOR" }
     ]
-    const const
+    const consultantData = {
+        head:""
+    }
     return (
         <>
             <section id='sec5' className='w-full max-w-7xl m-auto bg-white py-28'>
