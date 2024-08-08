@@ -5,6 +5,9 @@ interface Work {
   id: number,
   img: string
 }
+interface caseProps{
+  caseData: any
+}
 const CaseStudies = ({caseData}) => {
   const [preview, setPreview] = useState("")
   const [current, setCurrent] = useState(0)
