@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface exx {
+interface expert {
     expertData: any
 }
 const Expert = ({expertData}) => {
