@@ -1,11 +1,6 @@
 import React from 'react'
 
 const Testimony = () => {
-    const works = [
-        { img: "/img_5.jpg" },
-        { img: "/img_4 (1).jpg" },
-        { img: "/img_6 (1).jpg" }
-    ]
     const sponsors = [
         { img: "/img_1.png" },
         { img: "/img_2.png" },
@@ -16,7 +11,7 @@ const Testimony = () => {
     const testimonyData = {
         head: "Our client's testimonials",
         body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-        
+
     }    
     return (
         <>
