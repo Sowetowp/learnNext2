@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react'
 
 interface CarouselProps {
-    view: string;
+    view: string,
+    navData: any
 }
 
 const Navbar: React.FC<CarouselProps> = ({ view, navData }) => {
