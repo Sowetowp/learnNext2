@@ -17,7 +17,7 @@ const CaseStudies = () => {
     { img: "/img_12.jpg", id: 3 }
   ])
   const filterer = (id: number) => {
-    let filtered: Work[] = worksData.filter((fil: Work) => fil.id === id)
+    let filtered: Work[] = caseData.worksData.filter((fil: Work) => fil.id === id)
     setWorks(filtered)
     setCurrent(id)
   }
