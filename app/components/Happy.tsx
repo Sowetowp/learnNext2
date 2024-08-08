@@ -62,7 +62,7 @@ const Happy: React.FC<CarouselProps> = ({ view, details, setCount, setCount1, se
     return (
         <>
             <section id='happy' className='w-full max-w-7xl flex items-center flex-wrap bg-stone-50 py-4 px-16'>
-                {details.map((det, index) => (
+                {details.map((det: any, index) => (
                     <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center py-8'>
                         {det.img}
                         <p className='text-2xl font-medium mt-2'>{det.num}</p>
