@@ -123,7 +123,7 @@ export default function Home() {
       <Expert expertData={texts.expertData} />
       <Founded foundedData={texts.foundedData} />
       <Award awardData={texts.awardData} />
-      <Services servicesData={}/>
+      <Services servicesData={texts.servicesData}/>
       <Consultants />
       <Happy view={view} />
       <CaseStudies />
