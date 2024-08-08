@@ -1,6 +1,8 @@
 import React from 'react'
 
-interface 
+interface consultantData{
+    co
+}
 const Consultants = ({consultantData}) => {
     return (
         <>
