@@ -4,7 +4,8 @@ import React, { useEffect, useState } from 'react'
 interface CarouselProps {
     view: string,
     details: any,
-    
+    setCount:any, 
+    setCount1:any, setCount2, setCount3
 }
 
 const Happy: React.FC<CarouselProps> = ({ view, details, setCount, setCount1, setCount2, setCount3 }) => {
