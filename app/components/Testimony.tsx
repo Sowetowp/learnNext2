@@ -1,22 +1,8 @@
 import { comment } from 'postcss'
 import React from 'react'
 
-const Testimony = () => {
-    const testimonyData = {
-        head: "Our client's testimonials",
-        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-        works: [
-            { img: "/img_5.jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment: "This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." },
-            { img: "/img_4 (1).jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment: "This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." },
-            { img: "/img_6 (1).jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment: "This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." }
-        ],
-        sponsors: [
-            { img: "/img_1.png" },
-            { img: "/img_2.png" },
-            { img: "/img_4.png" },
-            { img: "/img_5.png" }
-        ]
-    }
+const Testimony = ({test}) => {
+    
     return (
         <>
             <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
