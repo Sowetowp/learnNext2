@@ -26,7 +26,7 @@ const Testimony = () => {
                         <div key={index} className='xl:w-1/3 md:w-1/2 m-auto w-full mt-14 md:px-5'>
                             <div data-aos="fade-up" data-aos-duration="1000" className='bg-white md:p-16 p-8 shadow text-center'>
                                 <img data-aos="fade-up" data-aos-duration="1000" src={test.img} alt="" className='w-24 rounded-full m-auto' />
-                                <p data-aos="fade-up" data-aos-duration="1000" className='font-medium text-xs tracking-wider mt-6 text-center'>{}</p>
+                                <p data-aos="fade-up" data-aos-duration="1000" className='font-medium text-xs tracking-wider mt-6 text-center'>{test.name}</p>
                                 <p data-aos="fade-up" data-aos-duration="1000" className='text-[0.7rem] mt-1 text-gray-500'>CREATIVE DIRECTOR</p>
                                 <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-gray-500 mt-4'>This theme is very easy to use and understand, and provides enough options and customization without being overwhelming.</p>
                             </div>
