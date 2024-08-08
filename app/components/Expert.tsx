@@ -29,7 +29,7 @@ const Expert = () => {
                         <div key={index} className='md:w-1/3 w-full md:px-6 xl:px-10 text-center mt-14'>
                             <span data-aos="fade-up" data-aos-duration="1000" className='bg-blue-700 inline-block p-6 rounded-full'>{ex.img}</span>
                             <p data-aos="fade-up" data-aos-duration="1000" className='font-medium text-[0.9rem] mt-4'>{ex.head}</p>
-                            <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-gray-500 mt-3'>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard .</p>
+                            <p data-aos="fade-up" data-aos-duration="1000" className='text-sm text-gray-500 mt-3'>{ex.</p>
                         </div>
                     ))}
                 </div>
