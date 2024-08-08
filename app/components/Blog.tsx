@@ -16,7 +16,7 @@ const Blog = () => {
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]' data-aos="fade-up" data-aos-duration="1000">{blogData.head}</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center' data-aos="fade-up" data-aos-duration="1000">{blogData.body}</p>
                 <div className='w-full md:px-10 flex flex-wrap'>
-                    {works.map((work, index) => (
+                    {blogData.works.map((work, index) => (
                         <div data-aos="fade-up" data-aos-duration="1000" key={index} className='xl:w-1/3 m-auto cursor-pointer md:w-1/2 w-full mt-14 px-4'>
                             <div data-aos="fade-up" data-aos-duration="1000" className='w-full h-60 relative'>
                                 <p className='bg-blue-700 w-fit bottom-0 px-4 absolute py-2 text-xs text-white'>JAN 11</p>
