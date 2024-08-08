@@ -1,7 +1,7 @@
 import React from 'react'
 
-interface consultantData{
-    co
+interface consultantProp{
+    consultantData:any
 }
 const Consultants = ({consultantData}) => {
     return (
