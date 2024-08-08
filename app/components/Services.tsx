@@ -1,9 +1,9 @@
 import React from 'react'
 
 interface servicesProp {
-    serviceData
+    serviceData: any
 }
-const Services = ({servicesData}) => {
+const Services: React.FC<servicesProp> = ({servicesData}) => {
     return (
         <>
             <section id='sec4' className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
