@@ -21,13 +21,13 @@ const Services = () => {
     ]
     const servicesData ={
         head:"Our services",
-        body:""
+        body:"There are many variations of passages of Lorem Ipsum but the majority have suffered in some form."
     }
     return (
         <>
             <section id='sec4' className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
                 <h2 data-aos="fade-up" data-aos-duration="1000" className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>{servicesData.head}</h2>
-                <p data-aos="fade-up" data-aos-duration="1000" className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-[60%] xl:w-[40%] text-center'>There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p>
+                <p data-aos="fade-up" data-aos-duration="1000" className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-[60%] xl:w-[40%] text-center'>{servicesData.body}</p>
                 <div className='w-full px-10 flex flex-wrap'>
                     {exp.map((ex, index) => (
                         <div key={index} className='xl:w-1/4 md:w-1/2 w-full md:px-10 text-center mt-14'>
