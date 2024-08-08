@@ -22,6 +22,7 @@ const Expert = () => {
             }
         ]
     }
+    const expertData
     return (
         <>
             <section id='sec2' className='w-full max-w-7xl m-auto bg-white py-28'>
