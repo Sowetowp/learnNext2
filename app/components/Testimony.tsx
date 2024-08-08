@@ -12,6 +12,11 @@ const Testimony = () => {
         { img: "/img_4.png" },
         { img: "/img_5.png" }
     ]
+
+    const caseData = {
+        head: "Our case studies",
+        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    }    
     return (
         <>
             <section className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
