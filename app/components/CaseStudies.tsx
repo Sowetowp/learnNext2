@@ -23,7 +23,7 @@ const CaseStudies = () => {
   }
   const caseData ={
     head:"Our case studies",
-    body:"",
+    body:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     worksData: [
       { img: "/img_2.jpg", id: 1 },
       { img: "/img_4.jpg", id: 2 },
