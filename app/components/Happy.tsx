@@ -6,7 +6,7 @@ interface CarouselProps {
     details: any
 }
 
-const Happy: React.FC<CarouselProps> = ({ view, details }) => {
+const Happy: React.FC<CarouselProps> = ({ view, details, setCount, setCount1, setC }) => {
     const [started, setStarted] = useState<boolean>(false);
 
     useEffect(() => {
