@@ -22,7 +22,7 @@ const CaseStudies = () => {
     setCurrent(id)
   }
   const caseData ={
-    head:"Our services",
+    head:"Our case studies",
     body:"There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
     worksData: [
       { img: "/img_2.jpg", id: 1 },
