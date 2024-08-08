@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Founded = () => {
+    
     return (
         <>
             <section className='w-full flex overflow-hidden items-center flex-wrap max-w-7xl m-auto bg-stone-50 px-3 md:px-16 py-28'>
