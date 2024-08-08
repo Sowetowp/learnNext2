@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface servicesProp {
-    serviceData: any
+    servicesData: any
 }
 const Services: React.FC<servicesProp> = ({servicesData}) => {
     return (
