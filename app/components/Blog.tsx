@@ -6,6 +6,10 @@ const Blog = () => {
         { img: "/img_10.jpeg", title: "The perfect plan for the business", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print." },
         { img: "/img_11.jpeg", title: "Analytics is the important factor", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print." }
     ]
+    const testimonyData = {
+        head: "Our client's testimonials",
+        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+        
     return (
         <>
             <section id='sec7' className='w-full max-w-7xl m-auto bg-white py-28'>
