@@ -23,7 +23,7 @@ const Expert = () => {
         ]
     }
     const expertData = {
-        he
+        head:""
     }
     return (
         <>
