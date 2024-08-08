@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import { useMemo } from "react";
 
 interface contactDatatype {
-con
+    contactData: any
 }
 const Contact:React.FC<contactDatatype> = ({contactData}) => {
     const Map = useMemo(() => dynamic(
