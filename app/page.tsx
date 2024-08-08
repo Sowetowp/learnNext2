@@ -155,7 +155,19 @@ details: [
       val: 1347,
       det: "Client's served"
   }
-]
+],
+caseData: {
+  head: "Our case studies",
+  body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  worksData: [
+    { img: "/img_2.jpg", id: 1 },
+    { img: "/img_4.jpg", id: 2 },
+    { img: "/img_6.jpg", id: 3 },
+    { img: "/img_7.jpg", id: 1 },
+    { img: "/img_10.jpg", id: 2 },
+    { img: "/img_12.jpg", id: 3 }
+  ]
+}
   }
   return (
     <>
