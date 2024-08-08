@@ -24,7 +24,7 @@ const CaseStudies = () => {
   const caseData ={
     head:"Our services",
     body:"There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
-    worksData: Work[] : [
+    worksData: [
       { img: "/img_2.jpg", id: 1 },
       { img: "/img_4.jpg", id: 2 },
       { img: "/img_6.jpg", id: 3 },
