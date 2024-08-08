@@ -29,7 +29,7 @@ const CaseStudies = () => {
     setWorks(filtered)
     setCurrent(id)
   }
-  const servicesData ={
+  const caseData ={
     head:"Our services",
     body:"There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
   }
