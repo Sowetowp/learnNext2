@@ -60,7 +60,8 @@ export default function Home() {
         }
       ],
       coordinate: { lat: 6.5827, lng: 3.3405 }
-    }
+    },
+    navData:"SPERE"
   }
   return (
     <>
