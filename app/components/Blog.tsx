@@ -7,7 +7,7 @@ const Blog = () => {
         { img: "/img_11.jpeg", title: "Analytics is the important factor", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print." }
     ]
     const blogData = {
-        head: "Our client's testimonials",
+        head: "Latest news",
         body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
     }
     return (
