@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Consultants = () => {
-    
     return (
         <>
             <section id='sec5' className='w-full max-w-7xl m-auto bg-white py-28'>
