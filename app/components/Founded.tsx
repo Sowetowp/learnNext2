@@ -1,5 +1,6 @@
 import React from 'react'
 
+interface 
 const Founded = ({foundedData}) => {
     
     return (
