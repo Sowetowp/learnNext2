@@ -77,7 +77,7 @@ const Carousel: React.FC<CarouselProps> = ({ view, slides, navData }) => {
                         <div onClick={() => setCurrentIndex(index)} key={index} className={`${index === currentIndex ? "bg-white" : ""} border-2 border-white w-3 h-3 rounded-full`}></div>
                     ))}
                 </div>
-                <Navbar view={view} />
+                <Navbar view={view} navData={navData}/>
             </section>
         </>
     )
