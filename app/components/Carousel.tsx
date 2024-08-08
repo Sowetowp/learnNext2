@@ -6,7 +6,7 @@ interface CarouselProps {
     view: string;
 }
 
-const Carousel: React.FC<CarouselProps> = ({ view, slides, nav }) => {
+const Carousel: React.FC<CarouselProps> = ({ view, slides, navData }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const prevIndex = useRef(0)
     const nextRef = useRef<HTMLButtonElement>(null);
