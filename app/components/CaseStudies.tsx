@@ -36,7 +36,7 @@ const CaseStudies = () => {
   return (
     <>
       <section id='sec6' className='w-full max-w-7xl m-auto bg-white py-24'>
-        <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]' data-aos="fade-up" data-aos-duration="1000">Our case studies</h2>
+        <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]' data-aos="fade-up" data-aos-duration="1000">{caseData.head}</h2>
         <p className='mt-7 m-auto text-[0.9rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center' data-aos="fade-up" data-aos-duration="1000">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
         <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-wrap mt-11 justify-center items-center gap-5'>
           <a className={`font-medium cursor-pointer hover:text-[#1d4ed8] text-xs ${current === 0 ? "text-blue-700" : "text-gray-600"}`} onClick={() => {setWorks(worksData), setCurrent(0)}}>ALL</a>
