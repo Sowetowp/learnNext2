@@ -15,7 +15,7 @@ const Testimony = () => {
 
     const testimonyData = {
         head: "Our client's testimonials",
-        body: "",
+        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
     }    
     return (
         <>
