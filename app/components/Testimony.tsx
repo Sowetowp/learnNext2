@@ -1,7 +1,8 @@
 import { comment } from 'postcss'
 import React from 'react'
 
-const Testimony = ({test}) => {
+
+const Testimony = ({testimonyData}) => {
     
     return (
         <>
