@@ -3,7 +3,7 @@ import React from 'react'
 interface blogProp{
     blogData: any
 }
-const Blog = ({blogData}) => {
+const Blog: React.FC<blogProp> = ({blogData}) => {
     
     return (
         <>
