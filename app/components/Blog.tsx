@@ -1,15 +1,8 @@
 import React from 'react'
 
-const Blog = () => {
-    const blogData = {
-        head: "Latest news",
-        body: "There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
-        works: [
-            { img: "/img_9.jpeg", title: "Points to remember in the meeting", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print.", day: "JAN 11" },
-            { img: "/img_10.jpeg", title: "The perfect plan for the business", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print.", day: "JAN 11" },
-            { img: "/img_11.jpeg", title: "Analytics is the important factor", det: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text for print.", day: "JAN 11" }
-        ]
-    }
+interface 
+const Blog = ({blogData}) => {
+    
     return (
         <>
             <section id='sec7' className='w-full max-w-7xl m-auto bg-white py-28'>
