@@ -166,7 +166,7 @@ details: [
       <Services servicesData={texts.servicesData}/>
       <Consultants consultantData={texts.consultantData}/>
       <Happy view={view} details={texts.details} setCount={setCount} setCount1={setCount1} setCount2={setCount2} setCount3={setCount3} />
-      <CaseStudies />
+      <CaseStudies  />
       <Testimony />
       <Blog />
       <Contact contactData={texts.contactData} />
