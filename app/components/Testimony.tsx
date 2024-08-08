@@ -1,8 +1,10 @@
 import { comment } from 'postcss'
 import React from 'react'
 
-interface 
-const Testimony = ({testimonyData}) => {
+interface testimonyProp{
+    testimonyData: any
+}
+const Testimony: React.FC<testimonyProp> = ({testimonyData}) => {
     
     return (
         <>
