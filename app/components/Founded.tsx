@@ -2,9 +2,10 @@ import React from 'react'
 
 const Founded = () => {
     const foundedData = {
-head: "Founded with the goal to serve expertise",
-imp:"Template is easy to setup and run",
-imp1: "Free support and lifetime updates",\
+        head: "Founded with the goal to serve expertise",
+        imp: "Template is easy to setup and run",
+        imp1: "Free support and lifetime updates",
+        imp2: "Modern and unique design"
     }
     return (
         <>
