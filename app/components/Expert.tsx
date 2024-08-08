@@ -22,7 +22,9 @@ const Expert = () => {
             }
         ]
     }
-    const expertData
+    const expertData = {
+        he
+    }
     return (
         <>
             <section id='sec2' className='w-full max-w-7xl m-auto bg-white py-28'>
