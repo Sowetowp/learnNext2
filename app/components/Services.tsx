@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Services = () => {
+const Services = ({servicesData}) => {
     return (
         <>
             <section id='sec4' className='w-full max-w-7xl m-auto bg-stone-50 py-28'>
