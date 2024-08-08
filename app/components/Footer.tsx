@@ -3,7 +3,7 @@ import React from 'react'
 interface footerProp{
     navData:any
 }
-const Footer = ({navData}) => {
+const Footer: React.FC<footerProp> = ({navData}) => {
     return (
         <>
             <section className='w-full flex-wrap max-w-7xl m-auto bg-[#0c0c0c] py-20 flex flex-row-reverse justify-between px-16'>
