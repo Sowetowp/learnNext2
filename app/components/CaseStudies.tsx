@@ -5,7 +5,7 @@ interface Work {
   id: number,
   img: string
 }
-const CaseStudies = () => {
+const CaseStudies = ({caseData}) => {
   const [preview, setPreview] = useState("")
   const [current, setCurrent] = useState(0)
   const [works, setWorks] = useState<Work[]>([])
