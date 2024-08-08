@@ -1,17 +1,17 @@
 import React from 'react'
 
-interface blogProp{
+interface blogProp {
     blogData: any
 }
-const Blog: React.FC<blogProp> = ({blogData}) => {
-    
+const Blog: React.FC<blogProp> = ({ blogData }) => {
+
     return (
         <>
             <section id='sec7' className='w-full max-w-7xl m-auto bg-white py-28'>
                 <h2 className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]' data-aos="fade-up" data-aos-duration="1000">{blogData.head}</h2>
                 <p className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center' data-aos="fade-up" data-aos-duration="1000">{blogData.body}</p>
                 <div className='w-full md:px-10 flex flex-wrap'>
-                    {blogData.works.map((work, index) => (
+                    {blogData.works.map((work: any, index: any) => (
                         <div data-aos="fade-up" data-aos-duration="1000" key={index} className='xl:w-1/3 m-auto cursor-pointer md:w-1/2 w-full mt-14 px-4'>
                             <div data-aos="fade-up" data-aos-duration="1000" className='w-full h-60 relative'>
                                 <p className='bg-blue-700 w-fit bottom-0 px-4 absolute py-2 text-xs text-white'>{work.day}</p>
