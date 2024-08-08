@@ -206,7 +206,7 @@ export default function Home() {
       <Testimony testimonyData={texts.testimonyData} />
       <Blog blogData={texts.blogData} />
       <Contact contactData={texts.contactData} />
-      <Footer />
+      <Footer navData={texts.navData} />
     </>
   );
 }
