@@ -4,7 +4,7 @@ const Founded = () => {
     const foundedData = {
 head: "Founded with the goal to serve expertise",
 imp:"Template is easy to setup and run",
-imp1: "Free support and lifetime updates"
+imp1: "Free support and lifetime updates",\
     }
     return (
         <>
@@ -13,7 +13,7 @@ imp1: "Free support and lifetime updates"
                     <h2 className='font-bold md:w-[80%] text-[1.9rem] mb-6'>{foundedData.head}</h2>
                     <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-1'>- {foundedData.imp}</p>
                     <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-1'>- {foundedData.imp1}</p>
-                    <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-1'>- Modern and unique design</p>
+                    <p className='text-[1.1rem] border-b pb-1 w-fit font-light text-gray-500 mt-1'>- {foundedData.imp2}</p>
                     <a href="#sec8" className='mt-8 px-5 py-3 bg-blue-700 inline-block text-xs text-white font-semibold'>CONTACT US</a>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000" className='md:w-1/2 w-full mt-12 md:mt-0'>
