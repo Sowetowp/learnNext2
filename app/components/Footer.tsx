@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({navData}) => {
     return (
         <>
             <section className='w-full flex-wrap max-w-7xl m-auto bg-[#0c0c0c] py-20 flex flex-row-reverse justify-between px-16'>
