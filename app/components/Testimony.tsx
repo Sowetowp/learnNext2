@@ -1,4 +1,3 @@
-import { comment } from 'postcss'
 import React from 'react'
 
 interface testimonyProp{
