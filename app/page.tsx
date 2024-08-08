@@ -194,7 +194,7 @@ testimonyData: {
       <Consultants consultantData={texts.consultantData}/>
       <Happy view={view} details={texts.details} setCount={setCount} setCount1={setCount1} setCount2={setCount2} setCount3={setCount3} />
       <CaseStudies caseData={texts.caseData} />
-      <Testimony />
+      <Testimony testimonyData={texts.testimonyData} />
       <Blog />
       <Contact contactData={texts.contactData} />
       <Footer />
