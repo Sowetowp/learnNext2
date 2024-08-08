@@ -25,7 +25,7 @@ const Happy: React.FC<CarouselProps> = ({ view }) => {
             setCount(prevCount => (prevCount < details[0].val ? prevCount + 1 : prevCount));
             setCount1(prevCount1 => (prevCount1 < details[1].val ? prevCount1 + 1 : prevCount1));
             setCount2(prevCount2 => (prevCount2 < details[2].val ? prevCount2 + 1 : prevCount2));
-            setCount3(prevCount3 => (prevCount3 < 1347 ? prevCount3 + 1 : prevCount3));
+            setCount3(prevCount3 => (prevCount3 < details[3].val ? prevCount3 + 1 : prevCount3));
         }, 1);
 
         return () => {
