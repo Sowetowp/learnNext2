@@ -32,7 +32,7 @@ const Contact = () => {
                 det1: "1-800-044-107"
             }
         ],
-        coordinate:"6.5965, 3.3421"
+        coordinate:{lat:6.5965, 3.3421"}
     }
     return (
         <>
