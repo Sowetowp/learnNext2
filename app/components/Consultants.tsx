@@ -10,7 +10,7 @@ const Consultants: React.FC<consultantProp> = ({consultantData}) => {
                 <h2 data-aos="fade" data-aos-duration="1000" className='font-bold text-[1.6rem] text-center m-auto max-w-[80%]'>{consultantData.head}</h2>
                 <p data-aos="fade" data-aos-duration="1000" className='mt-7 m-auto text-[0.95rem] text-gray-500 w-[90%] md:w-2/3 xl:w-1/2 text-center'>{consultantData.body}</p>
                 <div className='w-full md:px-10 flex flex-wrap'>
-                    {consultantData.exp.map((ex, index) => (
+                    {consultantData.exp.map((ex: any, index:any) => (
                         <div key={index} className='xl:w-1/4 md:w-1/2 w-full text-center mt-14 px-3'>
                             <div className='relative'>
                                 <div className='h-[19rem] flex items-center justify-center gap-3 w-full opacity-0 hover:opacity-100 transition-opacity duration-500 z-10 absolute bg-blue-700'>
