@@ -1,6 +1,9 @@
 import React from 'react'
 
-const Award = ({awardData}) => {  
+interface awardProp{
+  awardData: any
+}
+const Award: React.FC<awardProp> = ({awardData}) => {  
   return (
     <>
       <section className='w-full max-w-7xl m-auto'>
