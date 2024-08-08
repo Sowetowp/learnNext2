@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Award = () => {
+  con
   return (
     <>
       <section className='w-full max-w-7xl m-auto'>
