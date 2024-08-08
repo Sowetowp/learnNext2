@@ -69,7 +69,7 @@ export default function Home() {
       <CaseStudies />
       <Testimony />
       <Blog />
-      <Contact contactData={}/>
+      <Contact contactData={texts.contactData}/>
       <Footer />
     </>
   );
