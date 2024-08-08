@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Award = () => {
-  con
+  const awardData = ""
   return (
     <>
       <section className='w-full max-w-7xl m-auto'>
