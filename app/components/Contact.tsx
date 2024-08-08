@@ -29,7 +29,7 @@ const Contact = () => {
         }
     ]
     const contactData = {
-        head: "Latest news",
+        head: "Get in touch with us",
         body: "There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.",
     }
     return (
