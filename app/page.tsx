@@ -134,8 +134,8 @@ export default function Home() {
       <Founded foundedData={texts.foundedData} />
       <Award awardData={texts.awardData} />
       <Services servicesData={texts.servicesData}/>
-      <Consultants />
-      <Happy view={view} />
+      <Consultants consultantData={texts.consultantData}/>
+      <Happy view={view}  />
       <CaseStudies />
       <Testimony />
       <Blog />
