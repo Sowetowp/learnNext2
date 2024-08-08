@@ -6,9 +6,9 @@ const Testimony = () => {
         head: "Our client's testimonials",
         body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
         works: [
-            { img: "/img_5.jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment:"This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." },
-            { img: "/img_4 (1).jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment:"This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." },
-            { img: "/img_6 (1).jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment:"This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." }
+            { img: "/img_5.jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment: "This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." },
+            { img: "/img_4 (1).jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment: "This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." },
+            { img: "/img_6 (1).jpg", name: "JAMES WILLAMSON", title: "CREATIVE DIRECTOR", comment: "This theme is very easy to use and understand, and provides enough options and customization without being overwhelming." }
         ],
         sponsors: [
             { img: "/img_1.png" },
