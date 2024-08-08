@@ -165,7 +165,7 @@ details: [
       <Award awardData={texts.awardData} />
       <Services servicesData={texts.servicesData}/>
       <Consultants consultantData={texts.consultantData}/>
-      <Happy view={view} details={texts.details} />
+      <Happy view={view} details={texts.details}  />
       <CaseStudies />
       <Testimony />
       <Blog />
