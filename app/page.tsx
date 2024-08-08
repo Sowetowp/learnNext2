@@ -15,7 +15,11 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [view, setView] = useState<string>('');
-
+  const [count, setCount] = useState(0)
+  const [count1, setCount1] = useState(0)
+  const [count2, setCount2] = useState(0)
+  const [count3, setCount3] = useState(0)
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
